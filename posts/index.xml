@@ -2,18 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on gamstersparadise</title>
-    <link>https://gamstersparadise.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Apr 2025 09:58:06 +0600</lastBuildDate>
-    <atom:link href="https://gamstersparadise.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Apr 2025 11:03:25 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First post</title>
-      <link>https://gamstersparadise.github.io/posts/first_post/</link>
-      <pubDate>Mon, 21 Apr 2025 09:58:06 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/posts/first_post/</guid>
-      <description></description>
+      <title>Influence: The Psychology of Persuasion</title>
+      <link>http://localhost:1313/posts/influence/</link>
+      <pubDate>Fri, 18 Apr 2025 11:03:25 +0600</pubDate>
+      <guid>http://localhost:1313/posts/influence/</guid>
+      <description>&lt;p&gt;Author: Robert Cialdini&lt;/p&gt;&#xA;&lt;p&gt;Year: 1984&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>True and False Magic</title>
+      <link>http://localhost:1313/posts/true-and-false-magic/</link>
+      <pubDate>Thu, 03 Apr 2025 11:02:17 +0600</pubDate>
+      <guid>http://localhost:1313/posts/true-and-false-magic/</guid>
+      <description>&lt;p&gt;Author: Phil Stutz&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Captivate: The Science of Succeeding with People</title>
+      <link>http://localhost:1313/posts/captivate/</link>
+      <pubDate>Mon, 31 Mar 2025 11:01:03 +0600</pubDate>
+      <guid>http://localhost:1313/posts/captivate/</guid>
+      <description>&lt;p&gt;Author: Vanessa van Edwards&lt;/p&gt;&#xA;&lt;p&gt;Year: 2017&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hoodwinked</title>
+      <link>http://localhost:1313/posts/hoodwinked/</link>
+      <pubDate>Sat, 22 Mar 2025 10:54:25 +0600</pubDate>
+      <guid>http://localhost:1313/posts/hoodwinked/</guid>
+      <description>&lt;p&gt;Author: Mara Einstein&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Presence</title>
+      <link>http://localhost:1313/posts/presence/</link>
+      <pubDate>Wed, 12 Mar 2025 10:52:07 +0600</pubDate>
+      <guid>http://localhost:1313/posts/presence/</guid>
+      <description>&lt;p&gt;Author: Amy Cuddy&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Love Worth Making</title>
+      <link>http://localhost:1313/posts/love-worth-making/</link>
+      <pubDate>Mon, 10 Mar 2025 10:49:54 +0600</pubDate>
+      <guid>http://localhost:1313/posts/love-worth-making/</guid>
+      <description>&lt;p&gt;Author: Stephen Snyder&lt;/p&gt;&#xA;&lt;p&gt;Year: 2018&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Men Love Bitches</title>
+      <link>http://localhost:1313/posts/why-men-love-bitches/</link>
+      <pubDate>Tue, 04 Mar 2025 10:48:08 +0600</pubDate>
+      <guid>http://localhost:1313/posts/why-men-love-bitches/</guid>
+      <description>&lt;p&gt;Author: Sherry Argov&lt;/p&gt;&#xA;&lt;p&gt;Year: 2002&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Good Startegy / Bad Strategy</title>
+      <link>http://localhost:1313/posts/good-startegy-bad-strategy/</link>
+      <pubDate>Sat, 01 Mar 2025 10:47:00 +0600</pubDate>
+      <guid>http://localhost:1313/posts/good-startegy-bad-strategy/</guid>
+      <description>&lt;p&gt;Author: Richard Rumelt&lt;/p&gt;&#xA;&lt;p&gt;Year: 2011&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Court Of Thorns And Roses</title>
+      <link>http://localhost:1313/posts/acotar/</link>
+      <pubDate>Fri, 28 Feb 2025 10:45:45 +0600</pubDate>
+      <guid>http://localhost:1313/posts/acotar/</guid>
+      <description>&lt;p&gt;Author: Sarah J. Maas&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thinking in Systems</title>
+      <link>http://localhost:1313/posts/thinking-in-systems/</link>
+      <pubDate>Tue, 18 Feb 2025 10:44:13 +0600</pubDate>
+      <guid>http://localhost:1313/posts/thinking-in-systems/</guid>
+      <description>&lt;p&gt;Author: Donella Meadows&lt;/p&gt;&#xA;&lt;p&gt;Year: 2008&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mindset</title>
+      <link>http://localhost:1313/posts/mindset/</link>
+      <pubDate>Sat, 15 Feb 2025 10:41:16 +0600</pubDate>
+      <guid>http://localhost:1313/posts/mindset/</guid>
+      <description>&lt;p&gt;Author: Carol Dweck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2006&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Way of Integrity</title>
+      <link>http://localhost:1313/posts/integrity/</link>
+      <pubDate>Fri, 07 Feb 2025 10:37:47 +0600</pubDate>
+      <guid>http://localhost:1313/posts/integrity/</guid>
+      <description>&lt;p&gt;Author: Martha Beck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2021&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Creative Act: A Way Of Being</title>
+      <link>http://localhost:1313/posts/creative-act/</link>
+      <pubDate>Mon, 30 Dec 2024 10:35:05 +0600</pubDate>
+      <guid>http://localhost:1313/posts/creative-act/</guid>
+      <description>&lt;p&gt;Author: Rick Rubin&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

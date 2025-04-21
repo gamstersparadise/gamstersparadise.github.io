@@ -2,17 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gamstersparadise.github.io/posts/first_post/</loc>
-    <lastmod>2025-04-21T09:58:06+06:00</lastmod>
+    <loc>http://localhost:1313/categories/books/</loc>
+    <lastmod>2025-04-18T11:03:25+06:00</lastmod>
   </url><url>
-    <loc>https://gamstersparadise.github.io/posts/</loc>
-    <lastmod>2025-04-21T09:58:06+06:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-18T11:03:25+06:00</lastmod>
   </url><url>
-    <loc>https://gamstersparadise.github.io/</loc>
+    <loc>http://localhost:1313/posts/influence/</loc>
+    <lastmod>2025-04-18T11:03:25+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-18T11:03:25+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/true-and-false-magic/</loc>
+    <lastmod>2025-04-03T11:02:17+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/captivate/</loc>
+    <lastmod>2025-03-31T11:01:03+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hoodwinked/</loc>
+    <lastmod>2025-03-22T10:54:25+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/presence/</loc>
+    <lastmod>2025-03-12T10:52:07+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/love-worth-making/</loc>
+    <lastmod>2025-03-10T10:49:54+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/why-men-love-bitches/</loc>
+    <lastmod>2025-03-04T10:48:08+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/good-startegy-bad-strategy/</loc>
+    <lastmod>2025-03-01T10:47:00+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/acotar/</loc>
+    <lastmod>2025-02-28T10:45:45+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/thinking-in-systems/</loc>
+    <lastmod>2025-02-18T10:44:13+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mindset/</loc>
+    <lastmod>2025-02-15T10:41:16+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/integrity/</loc>
+    <lastmod>2025-02-07T10:37:47+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/creative-act/</loc>
+    <lastmod>2024-12-30T10:35:05+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>https://gamstersparadise.github.io/categories/</loc>
-  </url><url>
-    <loc>https://gamstersparadise.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
