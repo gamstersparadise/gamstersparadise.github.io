@@ -2,122 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gamstersparadise</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:57696/</link>
     <description>Recent content on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Apr 2025 11:24:37 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Apr 2025 22:24:53 +0600</lastBuildDate>
+    <atom:link href="http://localhost:57696/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The First Rule of Mastery</title>
+      <link>http://localhost:57696/books/first-rule-of-mastery/</link>
+      <pubDate>Mon, 21 Apr 2025 22:24:53 +0600</pubDate>
+      <guid>http://localhost:57696/books/first-rule-of-mastery/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41xhA+8mEbL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Michael Gervais&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mind Power Into 21st Century</title>
-      <link>http://localhost:1313/books/mindpower/</link>
+      <link>http://localhost:57696/books/mindpower/</link>
       <pubDate>Fri, 18 Apr 2025 11:24:37 +0600</pubDate>
-      <guid>http://localhost:1313/books/mindpower/</guid>
+      <guid>http://localhost:57696/books/mindpower/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://golosknig.com/uploads/topics/preview/00/00/07/74/6f3e80ff5a.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: John Kehoe&lt;/p&gt;&#xA;&lt;p&gt;Year: 1997&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Influence: The Psychology of Persuasion</title>
-      <link>http://localhost:1313/books/influence/</link>
+      <link>http://localhost:57696/books/influence/</link>
       <pubDate>Fri, 18 Apr 2025 11:03:25 +0600</pubDate>
-      <guid>http://localhost:1313/books/influence/</guid>
+      <guid>http://localhost:57696/books/influence/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://avatars.mds.yandex.net/get-mpic/12305976/2a0000018d4f2546a9d371b658944b5269d7/optimize#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Robert Cialdini&lt;/p&gt;&#xA;&lt;p&gt;Year: 1984&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Miracle Of Mind Dynamics</title>
-      <link>http://localhost:1313/books/miracle-mind-dynamics/</link>
+      <link>http://localhost:57696/books/miracle-mind-dynamics/</link>
       <pubDate>Sun, 13 Apr 2025 11:26:17 +0600</pubDate>
-      <guid>http://localhost:1313/books/miracle-mind-dynamics/</guid>
+      <guid>http://localhost:57696/books/miracle-mind-dynamics/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://avatars.mds.yandex.net/get-mpic/3584542/img_id5233093471472339285.jpeg/optimize#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Joseph Murphy&lt;/p&gt;&#xA;&lt;p&gt;Year: 1964&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>True and False Magic</title>
-      <link>http://localhost:1313/books/true-and-false-magic/</link>
+      <link>http://localhost:57696/books/true-and-false-magic/</link>
       <pubDate>Thu, 03 Apr 2025 11:02:17 +0600</pubDate>
-      <guid>http://localhost:1313/books/true-and-false-magic/</guid>
+      <guid>http://localhost:57696/books/true-and-false-magic/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41QwZlLGBuL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Phil Stutz&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Captivate: The Science of Succeeding with People</title>
-      <link>http://localhost:1313/books/captivate/</link>
+      <link>http://localhost:57696/books/captivate/</link>
       <pubDate>Mon, 31 Mar 2025 11:01:03 +0600</pubDate>
-      <guid>http://localhost:1313/books/captivate/</guid>
+      <guid>http://localhost:57696/books/captivate/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/810BdFhMmPL._SY522_.jpg#bookcover&#34; alt=&#34;captivate cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Vanessa van Edwards&lt;/p&gt;&#xA;&lt;p&gt;Year: 2017&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hoodwinked</title>
-      <link>http://localhost:1313/books/hoodwinked/</link>
+      <link>http://localhost:57696/books/hoodwinked/</link>
       <pubDate>Sat, 22 Mar 2025 10:54:25 +0600</pubDate>
-      <guid>http://localhost:1313/books/hoodwinked/</guid>
+      <guid>http://localhost:57696/books/hoodwinked/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/51BqZlbLoGL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Mara Einstein&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Presence</title>
-      <link>http://localhost:1313/books/presence/</link>
+      <link>http://localhost:57696/books/presence/</link>
       <pubDate>Wed, 12 Mar 2025 10:52:07 +0600</pubDate>
-      <guid>http://localhost:1313/books/presence/</guid>
+      <guid>http://localhost:57696/books/presence/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://cdn.litres.ru/pub/c/cover_415/19196112.webp#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Amy Cuddy&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Love Worth Making</title>
-      <link>http://localhost:1313/books/love-worth-making/</link>
+      <link>http://localhost:57696/books/love-worth-making/</link>
       <pubDate>Mon, 10 Mar 2025 10:49:54 +0600</pubDate>
-      <guid>http://localhost:1313/books/love-worth-making/</guid>
+      <guid>http://localhost:57696/books/love-worth-making/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://imo10.labirint.ru/books/790586/cover.jpg/2000-0#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Stephen Snyder&lt;/p&gt;&#xA;&lt;p&gt;Year: 2018&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Men Love Bitches</title>
-      <link>http://localhost:1313/books/why-men-love-bitches/</link>
+      <link>http://localhost:57696/books/why-men-love-bitches/</link>
       <pubDate>Tue, 04 Mar 2025 10:48:08 +0600</pubDate>
-      <guid>http://localhost:1313/books/why-men-love-bitches/</guid>
+      <guid>http://localhost:57696/books/why-men-love-bitches/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/71HncM+zhxL._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Sherry Argov&lt;/p&gt;&#xA;&lt;p&gt;Year: 2002&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Leetcode 100 [spring 2025]</title>
-      <link>http://localhost:1313/trackers/leetcode-100/</link>
+      <link>http://localhost:57696/trackers/leetcode-100/</link>
       <pubDate>Sat, 01 Mar 2025 15:22:17 +0600</pubDate>
-      <guid>http://localhost:1313/trackers/leetcode-100/</guid>
+      <guid>http://localhost:57696/trackers/leetcode-100/</guid>
       <description>&lt;p&gt;🎯 31/100&lt;/p&gt;&#xA;&lt;p&gt;100 литкод задачек на весну 2025&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;345&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;605&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1071&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1431&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1768&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;112&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;841&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;994&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;2390&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1926&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;283&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;392&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;643&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1732&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;724&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1493&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;735&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;443&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;334&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;238&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2215&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1207&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;933&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;206&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;104&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1657&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1004&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1679&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1456&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;151&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;872&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;700&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;83&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;14&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1466&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;35&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;110&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;338&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1480&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;11&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>Good Startegy / Bad Strategy</title>
-      <link>http://localhost:1313/books/good-startegy-bad-strategy/</link>
+      <link>http://localhost:57696/books/good-startegy-bad-strategy/</link>
       <pubDate>Sat, 01 Mar 2025 10:47:00 +0600</pubDate>
-      <guid>http://localhost:1313/books/good-startegy-bad-strategy/</guid>
+      <guid>http://localhost:57696/books/good-startegy-bad-strategy/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/411KxIgNzIL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Richard Rumelt&lt;/p&gt;&#xA;&lt;p&gt;Year: 2011&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Court Of Thorns And Roses</title>
-      <link>http://localhost:1313/books/acotar/</link>
+      <link>http://localhost:57696/books/acotar/</link>
       <pubDate>Fri, 28 Feb 2025 10:45:45 +0600</pubDate>
-      <guid>http://localhost:1313/books/acotar/</guid>
+      <guid>http://localhost:57696/books/acotar/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://sarahjmaas.com/wp-content/uploads/2023/11/ACOTAR_1-min.jpg#bookcover&#34; alt=&#34;ACOTAR cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Sarah J. Maas&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thinking in Systems</title>
-      <link>http://localhost:1313/books/thinking-in-systems/</link>
+      <link>http://localhost:57696/books/thinking-in-systems/</link>
       <pubDate>Tue, 18 Feb 2025 10:44:13 +0600</pubDate>
-      <guid>http://localhost:1313/books/thinking-in-systems/</guid>
+      <guid>http://localhost:57696/books/thinking-in-systems/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://moreknig.org/uploads/posts/covers/63/85/medium/azbuka-sistemnogo-myshleniya-medouz-donella-99757.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Donella Meadows&lt;/p&gt;&#xA;&lt;p&gt;Year: 2008&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mindset</title>
-      <link>http://localhost:1313/books/mindset/</link>
+      <link>http://localhost:57696/books/mindset/</link>
       <pubDate>Sat, 15 Feb 2025 10:41:16 +0600</pubDate>
-      <guid>http://localhost:1313/books/mindset/</guid>
+      <guid>http://localhost:57696/books/mindset/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://ir-3.ozone.ru/s3/multimedia-a/wc1000/6759420022.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Carol Dweck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2006&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Way of Integrity</title>
-      <link>http://localhost:1313/books/integrity/</link>
+      <link>http://localhost:57696/books/integrity/</link>
       <pubDate>Fri, 07 Feb 2025 10:37:47 +0600</pubDate>
-      <guid>http://localhost:1313/books/integrity/</guid>
+      <guid>http://localhost:57696/books/integrity/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41ipeIFNOpL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Martha Beck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2021&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Creative Act: A Way Of Being</title>
-      <link>http://localhost:1313/books/creative-act/</link>
+      <link>http://localhost:57696/books/creative-act/</link>
       <pubDate>Mon, 30 Dec 2024 10:35:05 +0600</pubDate>
-      <guid>http://localhost:1313/books/creative-act/</guid>
+      <guid>http://localhost:57696/books/creative-act/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41GCniMAw0L._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Rick Rubin&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
   </channel>
