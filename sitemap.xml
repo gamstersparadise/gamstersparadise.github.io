@@ -3,16 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/books/</loc>
-    <lastmod>2025-04-18T11:03:25+06:00</lastmod>
+    <lastmod>2025-04-18T11:24:37+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-18T11:03:25+06:00</lastmod>
+    <lastmod>2025-04-18T11:24:37+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/mindpower/</loc>
+    <lastmod>2025-04-18T11:24:37+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-18T11:24:37+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/influence/</loc>
     <lastmod>2025-04-18T11:03:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-18T11:03:25+06:00</lastmod>
+    <loc>http://localhost:1313/posts/miracle-mind-dynamics/</loc>
+    <lastmod>2025-04-13T11:26:17+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/true-and-false-magic/</loc>
     <lastmod>2025-04-03T11:02:17+06:00</lastmod>
