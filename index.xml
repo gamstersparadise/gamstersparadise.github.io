@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gamstersparadise</title>
+    <link>https://gamstersparadise.github.io/</link>
+    <description>Recent content on gamstersparadise</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Apr 2025 09:58:06 +0600</lastBuildDate>
+    <atom:link href="https://gamstersparadise.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First post</title>
+      <link>https://gamstersparadise.github.io/posts/first_post/</link>
+      <pubDate>Mon, 21 Apr 2025 09:58:06 +0600</pubDate>
+      <guid>https://gamstersparadise.github.io/posts/first_post/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
