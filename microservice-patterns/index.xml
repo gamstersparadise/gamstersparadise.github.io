@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microservice-Patterns on gamstersparadise</title>
-    <link>http://localhost:60726/microservice-patterns/</link>
-    <description>Recent content in Microservice-Patterns on gamstersparadise</description>
+    <title>Microservice Patterns on gamstersparadise</title>
+    <link>http://localhost:62358/microservice-patterns/</link>
+    <description>Recent content in Microservice Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Apr 2025 10:15:45 +0600</lastBuildDate>
-    <atom:link href="http://localhost:60726/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Apr 2025 15:52:27 +0600</lastBuildDate>
+    <atom:link href="http://localhost:62358/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>🎀 Hexagonal Architecture</title>
-      <link>http://localhost:60726/microservice-patterns/hexagonal-architecture/</link>
+      <title>🌸 Microservice Architecture</title>
+      <link>http://localhost:62358/microservice-patterns/microservices/</link>
+      <pubDate>Tue, 22 Apr 2025 15:52:27 +0600</pubDate>
+      <guid>http://localhost:62358/microservice-patterns/microservices/</guid>
+      <description>&lt;p&gt;Микросервисная архитектура - стиль, когда приложение представлено набором &lt;strong&gt;слабо связанных&lt;/strong&gt;,&#xA;&lt;strong&gt;независимо развертываемых&lt;/strong&gt; компонентов (сервисов).&lt;/p&gt;&#xA;&lt;p&gt;У каждого сервиса есть своя архитектура и свой технический стек.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;слабая-связанность-low-coupling&#34;&gt;Слабая связанность (low coupling)&lt;/h3&gt;&#xA;&lt;p&gt;Важно, что взаимодействие между сервисами возможно только через их API. Это инкапсулирует детали реализации и обеспечивает слабую связанность.&lt;/p&gt;&#xA;&lt;p&gt;При таком раскладе:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;внесение изменений в код сервиса возможно без затрагивания клиентов, работающих с ним&lt;/li&gt;&#xA;&lt;li&gt;улучшается поддерживаемость кода&lt;/li&gt;&#xA;&lt;li&gt;сервис легче тестировать&lt;/li&gt;&#xA;&lt;li&gt;уменьшается время на разработку&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;database-per-service&#34;&gt;Database per service&lt;/h3&gt;&#xA;&lt;p&gt;Как раз таки для обеспечения слабой связанности в микросервисном приложении отсутствует единая база данных. У каждого сервиса - своя и он вправе определять свою схему хранения данных.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>🎀 Hexagonal Architecture Style</title>
+      <link>http://localhost:62358/microservice-patterns/hexagonal-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 10:15:45 +0600</pubDate>
-      <guid>http://localhost:60726/microservice-patterns/hexagonal-architecture/</guid>
+      <guid>http://localhost:62358/microservice-patterns/hexagonal-architecture/</guid>
       <description>&lt;p&gt;Основная особенность: &lt;strong&gt;бизнес логика - центр приложения&lt;/strong&gt;.&#xA;Она связывается с окружающим миром с помощью &lt;strong&gt;адаптеров&lt;/strong&gt; и &lt;strong&gt;портов&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/hex-basic.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Порт определяет как бизнес логика взаимодействует с внешним миром, а адаптер - как с внешним миром взаимодействует все приложение целиком.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;𓍢-порты-𓍢&#34;&gt;˚˖𓍢🌷✧˚.🎀⋆ Порты ˚˖𓍢🌷✧˚.🎀⋆&lt;/h3&gt;&#xA;&lt;p&gt;Порты разделяются на входящие (inbound) и исходящие (outbound).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Входящие порты&lt;/strong&gt; - доступное API, которое предоставляет бизнес логика. &lt;em&gt;(e.g. public методы интерфейса сервиса)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Исходящие порты&lt;/strong&gt; позволяют бизнес-логике вызывать внешние системы. &lt;em&gt;(e.g. интерфейс репозитория)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
