@@ -2,84 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:62434/microservice-patterns/microservices/</loc>
+    <loc>http://localhost:64289/microservice-patterns/three-tier-architecture/</loc>
+    <lastmod>2025-04-22T21:43:49+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:64289/microservice-patterns/microservices/</loc>
     <lastmod>2025-04-22T15:52:27+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/microservice-patterns/</loc>
+    <loc>http://localhost:64289/microservice-patterns/</loc>
     <lastmod>2025-04-22T12:37:49+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/microservice-patterns/hexagonal-architecture/</loc>
+    <loc>http://localhost:64289/microservice-patterns/hexagonal-architecture/</loc>
     <lastmod>2025-04-22T10:15:45+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/categories/books/</loc>
+    <loc>http://localhost:64289/categories/books/</loc>
     <lastmod>2025-04-21T22:24:53+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/</loc>
+    <loc>http://localhost:64289/books/</loc>
     <lastmod>2025-04-21T22:24:53+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/categories/</loc>
+    <loc>http://localhost:64289/categories/</loc>
     <lastmod>2025-04-21T22:24:53+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/first-rule-of-mastery/</loc>
+    <loc>http://localhost:64289/books/first-rule-of-mastery/</loc>
     <lastmod>2025-04-21T22:24:53+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/mindpower/</loc>
+    <loc>http://localhost:64289/books/mindpower/</loc>
     <lastmod>2025-04-18T11:24:37+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/influence/</loc>
+    <loc>http://localhost:64289/books/influence/</loc>
     <lastmod>2025-04-18T11:03:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/miracle-mind-dynamics/</loc>
+    <loc>http://localhost:64289/books/miracle-mind-dynamics/</loc>
     <lastmod>2025-04-13T11:26:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/true-and-false-magic/</loc>
+    <loc>http://localhost:64289/books/true-and-false-magic/</loc>
     <lastmod>2025-04-03T11:02:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/captivate/</loc>
+    <loc>http://localhost:64289/books/captivate/</loc>
     <lastmod>2025-03-31T11:01:03+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/hoodwinked/</loc>
+    <loc>http://localhost:64289/books/hoodwinked/</loc>
     <lastmod>2025-03-22T10:54:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/presence/</loc>
+    <loc>http://localhost:64289/books/presence/</loc>
     <lastmod>2025-03-12T10:52:07+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/love-worth-making/</loc>
+    <loc>http://localhost:64289/books/love-worth-making/</loc>
     <lastmod>2025-03-10T10:49:54+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/why-men-love-bitches/</loc>
+    <loc>http://localhost:64289/books/why-men-love-bitches/</loc>
     <lastmod>2025-03-04T10:48:08+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/trackers/leetcode-100/</loc>
+    <loc>http://localhost:64289/trackers/leetcode-100/</loc>
     <lastmod>2025-03-01T15:22:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/trackers/</loc>
+    <loc>http://localhost:64289/trackers/</loc>
     <lastmod>2025-03-01T15:22:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/good-startegy-bad-strategy/</loc>
+    <loc>http://localhost:64289/books/good-startegy-bad-strategy/</loc>
     <lastmod>2025-03-01T10:47:00+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/acotar/</loc>
+    <loc>http://localhost:64289/books/acotar/</loc>
     <lastmod>2025-02-28T10:45:45+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/thinking-in-systems/</loc>
+    <loc>http://localhost:64289/books/thinking-in-systems/</loc>
     <lastmod>2025-02-18T10:44:13+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/mindset/</loc>
+    <loc>http://localhost:64289/books/mindset/</loc>
     <lastmod>2025-02-15T10:41:16+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/integrity/</loc>
+    <loc>http://localhost:64289/books/integrity/</loc>
     <lastmod>2025-02-07T10:37:47+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/books/creative-act/</loc>
+    <loc>http://localhost:64289/books/creative-act/</loc>
     <lastmod>2024-12-30T10:35:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/posts/</loc>
+    <loc>http://localhost:64289/posts/</loc>
     <lastmod>2024-08-18T13:34:54+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/</loc>
+    <loc>http://localhost:64289/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:62434/tags/</loc>
+    <loc>http://localhost:64289/tags/</loc>
   </url>
 </urlset>
