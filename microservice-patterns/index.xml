@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microservice-Patterns on gamstersparadise</title>
-    <link>http://localhost:60111/microservice-patterns/</link>
+    <link>http://localhost:60726/microservice-patterns/</link>
     <description>Recent content in Microservice-Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Apr 2025 10:15:45 +0600</lastBuildDate>
-    <atom:link href="http://localhost:60111/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:60726/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🎀 Hexagonal Architecture</title>
-      <link>http://localhost:60111/microservice-patterns/hexagonal-architecture/</link>
+      <link>http://localhost:60726/microservice-patterns/hexagonal-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 10:15:45 +0600</pubDate>
-      <guid>http://localhost:60111/microservice-patterns/hexagonal-architecture/</guid>
-      <description>&lt;p&gt;Основная особенность: &lt;strong&gt;бизнес логика - центр приложения&lt;/strong&gt;.&#xA;Она связывается с окружающим миром с помощью &lt;strong&gt;адаптеров&lt;/strong&gt; и &lt;strong&gt;портов&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/hex-basic.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Порт определяет как бизнес логика взаимодействует с внешним миром, а адаптер - как с внешним миром взаимодействует все приложение целиком.&lt;/p&gt;&#xA;&lt;h3 id=&#34;порты&#34;&gt;Порты&lt;/h3&gt;&#xA;&lt;p&gt;Порты разделяются на входящие (inbound) и исходящие (outbound).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Входящие порты&lt;/strong&gt; - доступное API, которое предоставляет бизнес логика. &lt;em&gt;(e.g. public методы интерфейса сервиса)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Исходящие порты&lt;/strong&gt; позволяют бизнес-логике вызывать внешние системы. &lt;em&gt;(e.g. интерфейс репозитория)&lt;/em&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:60726/microservice-patterns/hexagonal-architecture/</guid>
+      <description>&lt;p&gt;Основная особенность: &lt;strong&gt;бизнес логика - центр приложения&lt;/strong&gt;.&#xA;Она связывается с окружающим миром с помощью &lt;strong&gt;адаптеров&lt;/strong&gt; и &lt;strong&gt;портов&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/hex-basic.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Порт определяет как бизнес логика взаимодействует с внешним миром, а адаптер - как с внешним миром взаимодействует все приложение целиком.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;𓍢-порты-𓍢&#34;&gt;˚˖𓍢🌷✧˚.🎀⋆ Порты ˚˖𓍢🌷✧˚.🎀⋆&lt;/h3&gt;&#xA;&lt;p&gt;Порты разделяются на входящие (inbound) и исходящие (outbound).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Входящие порты&lt;/strong&gt; - доступное API, которое предоставляет бизнес логика. &lt;em&gt;(e.g. public методы интерфейса сервиса)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Исходящие порты&lt;/strong&gt; позволяют бизнес-логике вызывать внешние системы. &lt;em&gt;(e.g. интерфейс репозитория)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
