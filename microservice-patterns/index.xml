@@ -6,8 +6,15 @@
     <description>Recent content in Microservice Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Apr 2025 23:09:05 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 23 Apr 2025 21:03:27 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🍥 IPC</title>
+      <link>http://localhost:1313/microservice-patterns/ipc/</link>
+      <pubDate>Wed, 23 Apr 2025 21:03:27 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/ipc/</guid>
+      <description>&lt;p&gt;&lt;em&gt;IPC - inter-process communication&lt;/em&gt;🤫&lt;/p&gt;&#xA;&lt;p&gt;Микросервисы могут быть запущены на разных машинах, написаны с использованием разных технологий - но тем не менее обработка запросов требует их слаженной совместой работы. Взаимодействие принято осуществлять с помощью IPC-механизмов (таких как, например, REST).&lt;/p&gt;&#xA;&lt;p&gt;Сейчас будет краткий обзор темы для общего развития:&lt;/p&gt;&#xA;&lt;p&gt;Смотреть на IPC можно с двух углов:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;синхронное и асинхронное взаимодействие&lt;/li&gt;&#xA;&lt;li&gt;взаимодействие 1:1 или же широковещание&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Все сводится к такой вот ✨симпатичной✨ табличке:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1:1&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1:many&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;sync&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;request/response&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;-&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;async&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;async request/response or one way notifications&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;publish/subscribe or publish/async responses&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sync request/response&lt;/strong&gt; - клиент ждет ответа на свой запрос и это ожидание его блокирует.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🪷 Monolith</title>
       <link>http://localhost:1313/microservice-patterns/monolith/</link>
