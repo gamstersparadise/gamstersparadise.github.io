@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microservice Patterns on gamstersparadise</title>
-    <link>http://localhost:64635/microservice-patterns/</link>
+    <link>http://localhost:1313/microservice-patterns/</link>
     <description>Recent content in Microservice Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Apr 2025 22:21:01 +0600</lastBuildDate>
-    <atom:link href="http://localhost:64635/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Apr 2025 23:09:05 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🪷 Monolith</title>
+      <link>http://localhost:1313/microservice-patterns/monolith/</link>
+      <pubDate>Tue, 22 Apr 2025 23:09:05 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/monolith/</guid>
+      <description>&lt;p&gt;Монолитная архитектура предполагает такую структуру приложения, что оно представлено &lt;strong&gt;единственным deployable юнитом&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;про-хорошее&#34;&gt;Про хорошее&lt;/h3&gt;&#xA;&lt;p&gt;Плюсы монолитой архитектуры многочисленны, но проявляются &lt;strong&gt;только при относительной простоте проекта&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;разработчикам удобно иметь один открытый проект в IDE, когда он сравнительно простой&lt;/li&gt;&#xA;&lt;li&gt;легко вносить радикальные изменения, пока проект не очень сложный&lt;/li&gt;&#xA;&lt;li&gt;легко деплоится, скейлится и тестируется (опять же пока проект небольшой)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;про-плохое&#34;&gt;Про плохое&lt;/h3&gt;&#xA;&lt;p&gt;Как только некоторый порог сложности системы пройден, начинаются проблемы и плюсы превращаются в минусы.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🐰 Layered Architecture</title>
-      <link>http://localhost:64635/microservice-patterns/layered-architecture/</link>
+      <link>http://localhost:1313/microservice-patterns/layered-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 22:21:01 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/layered-architecture/</guid>
+      <guid>http://localhost:1313/microservice-patterns/layered-architecture/</guid>
       <description>&lt;p&gt;Слоистая архитектура (вы не поверите!) разделяет код приложения на ✨слои✨.&lt;/p&gt;&#xA;&lt;p&gt;У каждого слоя:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;своя обязанность&lt;/li&gt;&#xA;&lt;li&gt;зависимости могут быть только от слоя ниже&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;слои&#34;&gt;Слои&lt;/h3&gt;&#xA;&lt;h4 id=&#34;---presentation-layer&#34;&gt;&amp;ndash; Presentation layer&lt;/h4&gt;&#xA;&lt;p&gt;Работа с предоставлением данных (REST API, HTML)&lt;/p&gt;&#xA;&lt;h4 id=&#34;---business-logic-layer&#34;&gt;&amp;ndash; Business logic layer&lt;/h4&gt;&#xA;&lt;p&gt;Работа с бизнес-правилами и обработка данных, уровень сервисов&lt;/p&gt;&#xA;&lt;h4 id=&#34;---persistence-layer&#34;&gt;&amp;ndash; Persistence layer&lt;/h4&gt;&#xA;&lt;p&gt;Работа с данными, уровень репозиториев&lt;/p&gt;&#xA;&lt;p&gt;Суть здесь в &lt;strong&gt;структуризации кода&lt;/strong&gt;, а не самого приложения. Например, типичное Spring Boot-овское разделение Controller/Service/Repository - это слоистая архитектура на 2 уровне трехуровнего веб приложения с SPA и RDBMS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>💓 3-Tier Architecture</title>
-      <link>http://localhost:64635/microservice-patterns/three-tier-architecture/</link>
+      <link>http://localhost:1313/microservice-patterns/three-tier-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 21:43:49 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/three-tier-architecture/</guid>
+      <guid>http://localhost:1313/microservice-patterns/three-tier-architecture/</guid>
       <description>&lt;p&gt;&lt;em&gt;По-русски: трехуровневая архитектура&lt;/em&gt;🤫&lt;/p&gt;&#xA;&lt;p&gt;В чем вся суть: речь идет про логическую структуру приложения (не кода). Если UI выполняется в браузере, бизнес-логика - на сервере, DB вообще живет своей жизнью (возможно, на том же железе, что и бэкенд, но сепарированно логически) - это 3-tier.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3-tier архитектура - классический частный случай n-tier архитектуры.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;presentation-tier-user-interface&#34;&gt;Presentation tier (User interface)&lt;/h3&gt;&#xA;&lt;p&gt;Любой интерфейс (например, веб или десктоп) который позволяет пользователям пользоваться приложением.&lt;/p&gt;&#xA;&lt;h3 id=&#34;application-tier&#34;&gt;Application tier&lt;/h3&gt;&#xA;&lt;p&gt;Логический уровень, где сосредоточена бизнес-логика и происходит обработка данных.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🌸 Microservices</title>
-      <link>http://localhost:64635/microservice-patterns/microservices/</link>
+      <link>http://localhost:1313/microservice-patterns/microservices/</link>
       <pubDate>Tue, 22 Apr 2025 15:52:27 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/microservices/</guid>
+      <guid>http://localhost:1313/microservice-patterns/microservices/</guid>
       <description>&lt;p&gt;Микросервисная архитектура - стиль, когда приложение представлено набором &lt;strong&gt;слабо связанных&lt;/strong&gt;,&#xA;&lt;strong&gt;независимо развертываемых&lt;/strong&gt; компонентов (сервисов).&lt;/p&gt;&#xA;&lt;p&gt;У каждого сервиса есть своя архитектура и свой технический стек.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;слабая-связанность-low-coupling&#34;&gt;Слабая связанность (low coupling)&lt;/h3&gt;&#xA;&lt;p&gt;Важно, что взаимодействие между сервисами возможно только через их API. Это инкапсулирует детали реализации и обеспечивает слабую связанность.&lt;/p&gt;&#xA;&lt;p&gt;При таком раскладе:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;внесение изменений в код сервиса возможно без затрагивания клиентов, работающих с ним&lt;/li&gt;&#xA;&lt;li&gt;улучшается поддерживаемость кода&lt;/li&gt;&#xA;&lt;li&gt;сервис легче тестировать&lt;/li&gt;&#xA;&lt;li&gt;уменьшается время на разработку&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;database-per-service&#34;&gt;Database per service&lt;/h3&gt;&#xA;&lt;p&gt;Как раз таки для обеспечения слабой связанности в микросервисном приложении отсутствует единая база данных. У каждого сервиса - своя и он вправе определять свою схему хранения данных.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🎀 Hexagonal Architecture</title>
-      <link>http://localhost:64635/microservice-patterns/hexagonal-architecture/</link>
+      <link>http://localhost:1313/microservice-patterns/hexagonal-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 10:15:45 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/hexagonal-architecture/</guid>
+      <guid>http://localhost:1313/microservice-patterns/hexagonal-architecture/</guid>
       <description>&lt;p&gt;Основная особенность: &lt;strong&gt;бизнес логика - центр приложения&lt;/strong&gt;.&#xA;Она связывается с окружающим миром с помощью &lt;strong&gt;адаптеров&lt;/strong&gt; и &lt;strong&gt;портов&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/hex-basic.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Порт определяет как бизнес логика взаимодействует с внешним миром, а адаптер - как с внешним миром взаимодействует все приложение целиком.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;𓍢-порты-𓍢&#34;&gt;˚˖𓍢🌷✧˚.🎀⋆ Порты ˚˖𓍢🌷✧˚.🎀⋆&lt;/h3&gt;&#xA;&lt;p&gt;Порты разделяются на входящие (inbound) и исходящие (outbound).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Входящие порты&lt;/strong&gt; - доступное API, которое предоставляет бизнес логика. &lt;em&gt;(e.g. public методы интерфейса сервиса)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Исходящие порты&lt;/strong&gt; позволяют бизнес-логике вызывать внешние системы. &lt;em&gt;(e.g. интерфейс репозитория)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>

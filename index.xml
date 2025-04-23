@@ -2,157 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gamstersparadise</title>
-    <link>http://localhost:64635/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Apr 2025 22:21:01 +0600</lastBuildDate>
-    <atom:link href="http://localhost:64635/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Apr 2025 23:09:05 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🪷 Monolith</title>
+      <link>http://localhost:1313/microservice-patterns/monolith/</link>
+      <pubDate>Tue, 22 Apr 2025 23:09:05 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/monolith/</guid>
+      <description>&lt;p&gt;Монолитная архитектура предполагает такую структуру приложения, что оно представлено &lt;strong&gt;единственным deployable юнитом&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;про-хорошее&#34;&gt;Про хорошее&lt;/h3&gt;&#xA;&lt;p&gt;Плюсы монолитой архитектуры многочисленны, но проявляются &lt;strong&gt;только при относительной простоте проекта&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;разработчикам удобно иметь один открытый проект в IDE, когда он сравнительно простой&lt;/li&gt;&#xA;&lt;li&gt;легко вносить радикальные изменения, пока проект не очень сложный&lt;/li&gt;&#xA;&lt;li&gt;легко деплоится, скейлится и тестируется (опять же пока проект небольшой)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;про-плохое&#34;&gt;Про плохое&lt;/h3&gt;&#xA;&lt;p&gt;Как только некоторый порог сложности системы пройден, начинаются проблемы и плюсы превращаются в минусы.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🐰 Layered Architecture</title>
-      <link>http://localhost:64635/microservice-patterns/layered-architecture/</link>
+      <link>http://localhost:1313/microservice-patterns/layered-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 22:21:01 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/layered-architecture/</guid>
+      <guid>http://localhost:1313/microservice-patterns/layered-architecture/</guid>
       <description>&lt;p&gt;Слоистая архитектура (вы не поверите!) разделяет код приложения на ✨слои✨.&lt;/p&gt;&#xA;&lt;p&gt;У каждого слоя:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;своя обязанность&lt;/li&gt;&#xA;&lt;li&gt;зависимости могут быть только от слоя ниже&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;слои&#34;&gt;Слои&lt;/h3&gt;&#xA;&lt;h4 id=&#34;---presentation-layer&#34;&gt;&amp;ndash; Presentation layer&lt;/h4&gt;&#xA;&lt;p&gt;Работа с предоставлением данных (REST API, HTML)&lt;/p&gt;&#xA;&lt;h4 id=&#34;---business-logic-layer&#34;&gt;&amp;ndash; Business logic layer&lt;/h4&gt;&#xA;&lt;p&gt;Работа с бизнес-правилами и обработка данных, уровень сервисов&lt;/p&gt;&#xA;&lt;h4 id=&#34;---persistence-layer&#34;&gt;&amp;ndash; Persistence layer&lt;/h4&gt;&#xA;&lt;p&gt;Работа с данными, уровень репозиториев&lt;/p&gt;&#xA;&lt;p&gt;Суть здесь в &lt;strong&gt;структуризации кода&lt;/strong&gt;, а не самого приложения. Например, типичное Spring Boot-овское разделение Controller/Service/Repository - это слоистая архитектура на 2 уровне трехуровнего веб приложения с SPA и RDBMS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>💓 3-Tier Architecture</title>
-      <link>http://localhost:64635/microservice-patterns/three-tier-architecture/</link>
+      <link>http://localhost:1313/microservice-patterns/three-tier-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 21:43:49 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/three-tier-architecture/</guid>
+      <guid>http://localhost:1313/microservice-patterns/three-tier-architecture/</guid>
       <description>&lt;p&gt;&lt;em&gt;По-русски: трехуровневая архитектура&lt;/em&gt;🤫&lt;/p&gt;&#xA;&lt;p&gt;В чем вся суть: речь идет про логическую структуру приложения (не кода). Если UI выполняется в браузере, бизнес-логика - на сервере, DB вообще живет своей жизнью (возможно, на том же железе, что и бэкенд, но сепарированно логически) - это 3-tier.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;3-tier архитектура - классический частный случай n-tier архитектуры.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;presentation-tier-user-interface&#34;&gt;Presentation tier (User interface)&lt;/h3&gt;&#xA;&lt;p&gt;Любой интерфейс (например, веб или десктоп) который позволяет пользователям пользоваться приложением.&lt;/p&gt;&#xA;&lt;h3 id=&#34;application-tier&#34;&gt;Application tier&lt;/h3&gt;&#xA;&lt;p&gt;Логический уровень, где сосредоточена бизнес-логика и происходит обработка данных.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🌸 Microservices</title>
-      <link>http://localhost:64635/microservice-patterns/microservices/</link>
+      <link>http://localhost:1313/microservice-patterns/microservices/</link>
       <pubDate>Tue, 22 Apr 2025 15:52:27 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/microservices/</guid>
+      <guid>http://localhost:1313/microservice-patterns/microservices/</guid>
       <description>&lt;p&gt;Микросервисная архитектура - стиль, когда приложение представлено набором &lt;strong&gt;слабо связанных&lt;/strong&gt;,&#xA;&lt;strong&gt;независимо развертываемых&lt;/strong&gt; компонентов (сервисов).&lt;/p&gt;&#xA;&lt;p&gt;У каждого сервиса есть своя архитектура и свой технический стек.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;слабая-связанность-low-coupling&#34;&gt;Слабая связанность (low coupling)&lt;/h3&gt;&#xA;&lt;p&gt;Важно, что взаимодействие между сервисами возможно только через их API. Это инкапсулирует детали реализации и обеспечивает слабую связанность.&lt;/p&gt;&#xA;&lt;p&gt;При таком раскладе:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;внесение изменений в код сервиса возможно без затрагивания клиентов, работающих с ним&lt;/li&gt;&#xA;&lt;li&gt;улучшается поддерживаемость кода&lt;/li&gt;&#xA;&lt;li&gt;сервис легче тестировать&lt;/li&gt;&#xA;&lt;li&gt;уменьшается время на разработку&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;database-per-service&#34;&gt;Database per service&lt;/h3&gt;&#xA;&lt;p&gt;Как раз таки для обеспечения слабой связанности в микросервисном приложении отсутствует единая база данных. У каждого сервиса - своя и он вправе определять свою схему хранения данных.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🎀 Hexagonal Architecture</title>
-      <link>http://localhost:64635/microservice-patterns/hexagonal-architecture/</link>
+      <link>http://localhost:1313/microservice-patterns/hexagonal-architecture/</link>
       <pubDate>Tue, 22 Apr 2025 10:15:45 +0600</pubDate>
-      <guid>http://localhost:64635/microservice-patterns/hexagonal-architecture/</guid>
+      <guid>http://localhost:1313/microservice-patterns/hexagonal-architecture/</guid>
       <description>&lt;p&gt;Основная особенность: &lt;strong&gt;бизнес логика - центр приложения&lt;/strong&gt;.&#xA;Она связывается с окружающим миром с помощью &lt;strong&gt;адаптеров&lt;/strong&gt; и &lt;strong&gt;портов&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/hex-basic.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Порт определяет как бизнес логика взаимодействует с внешним миром, а адаптер - как с внешним миром взаимодействует все приложение целиком.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;𓍢-порты-𓍢&#34;&gt;˚˖𓍢🌷✧˚.🎀⋆ Порты ˚˖𓍢🌷✧˚.🎀⋆&lt;/h3&gt;&#xA;&lt;p&gt;Порты разделяются на входящие (inbound) и исходящие (outbound).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Входящие порты&lt;/strong&gt; - доступное API, которое предоставляет бизнес логика. &lt;em&gt;(e.g. public методы интерфейса сервиса)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Исходящие порты&lt;/strong&gt; позволяют бизнес-логике вызывать внешние системы. &lt;em&gt;(e.g. интерфейс репозитория)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The First Rule of Mastery</title>
-      <link>http://localhost:64635/books/first-rule-of-mastery/</link>
+      <link>http://localhost:1313/books/first-rule-of-mastery/</link>
       <pubDate>Mon, 21 Apr 2025 22:24:53 +0600</pubDate>
-      <guid>http://localhost:64635/books/first-rule-of-mastery/</guid>
+      <guid>http://localhost:1313/books/first-rule-of-mastery/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41xhA+8mEbL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Michael Gervais&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mind Power Into 21st Century</title>
-      <link>http://localhost:64635/books/mindpower/</link>
+      <link>http://localhost:1313/books/mindpower/</link>
       <pubDate>Fri, 18 Apr 2025 11:24:37 +0600</pubDate>
-      <guid>http://localhost:64635/books/mindpower/</guid>
+      <guid>http://localhost:1313/books/mindpower/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://golosknig.com/uploads/topics/preview/00/00/07/74/6f3e80ff5a.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: John Kehoe&lt;/p&gt;&#xA;&lt;p&gt;Year: 1997&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Influence: The Psychology of Persuasion</title>
-      <link>http://localhost:64635/books/influence/</link>
+      <link>http://localhost:1313/books/influence/</link>
       <pubDate>Fri, 18 Apr 2025 11:03:25 +0600</pubDate>
-      <guid>http://localhost:64635/books/influence/</guid>
+      <guid>http://localhost:1313/books/influence/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://avatars.mds.yandex.net/get-mpic/12305976/2a0000018d4f2546a9d371b658944b5269d7/optimize#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Robert Cialdini&lt;/p&gt;&#xA;&lt;p&gt;Year: 1984&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Miracle Of Mind Dynamics</title>
-      <link>http://localhost:64635/books/miracle-mind-dynamics/</link>
+      <link>http://localhost:1313/books/miracle-mind-dynamics/</link>
       <pubDate>Sun, 13 Apr 2025 11:26:17 +0600</pubDate>
-      <guid>http://localhost:64635/books/miracle-mind-dynamics/</guid>
+      <guid>http://localhost:1313/books/miracle-mind-dynamics/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://avatars.mds.yandex.net/get-mpic/3584542/img_id5233093471472339285.jpeg/optimize#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Joseph Murphy&lt;/p&gt;&#xA;&lt;p&gt;Year: 1964&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>True and False Magic</title>
-      <link>http://localhost:64635/books/true-and-false-magic/</link>
+      <link>http://localhost:1313/books/true-and-false-magic/</link>
       <pubDate>Thu, 03 Apr 2025 11:02:17 +0600</pubDate>
-      <guid>http://localhost:64635/books/true-and-false-magic/</guid>
+      <guid>http://localhost:1313/books/true-and-false-magic/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41QwZlLGBuL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Phil Stutz&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Captivate: The Science of Succeeding with People</title>
-      <link>http://localhost:64635/books/captivate/</link>
+      <link>http://localhost:1313/books/captivate/</link>
       <pubDate>Mon, 31 Mar 2025 11:01:03 +0600</pubDate>
-      <guid>http://localhost:64635/books/captivate/</guid>
+      <guid>http://localhost:1313/books/captivate/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/810BdFhMmPL._SY522_.jpg#bookcover&#34; alt=&#34;captivate cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Vanessa van Edwards&lt;/p&gt;&#xA;&lt;p&gt;Year: 2017&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hoodwinked</title>
-      <link>http://localhost:64635/books/hoodwinked/</link>
+      <link>http://localhost:1313/books/hoodwinked/</link>
       <pubDate>Sat, 22 Mar 2025 10:54:25 +0600</pubDate>
-      <guid>http://localhost:64635/books/hoodwinked/</guid>
+      <guid>http://localhost:1313/books/hoodwinked/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/51BqZlbLoGL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Mara Einstein&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Presence</title>
-      <link>http://localhost:64635/books/presence/</link>
+      <link>http://localhost:1313/books/presence/</link>
       <pubDate>Wed, 12 Mar 2025 10:52:07 +0600</pubDate>
-      <guid>http://localhost:64635/books/presence/</guid>
+      <guid>http://localhost:1313/books/presence/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://cdn.litres.ru/pub/c/cover_415/19196112.webp#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Amy Cuddy&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Love Worth Making</title>
-      <link>http://localhost:64635/books/love-worth-making/</link>
+      <link>http://localhost:1313/books/love-worth-making/</link>
       <pubDate>Mon, 10 Mar 2025 10:49:54 +0600</pubDate>
-      <guid>http://localhost:64635/books/love-worth-making/</guid>
+      <guid>http://localhost:1313/books/love-worth-making/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://imo10.labirint.ru/books/790586/cover.jpg/2000-0#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Stephen Snyder&lt;/p&gt;&#xA;&lt;p&gt;Year: 2018&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Men Love Bitches</title>
-      <link>http://localhost:64635/books/why-men-love-bitches/</link>
+      <link>http://localhost:1313/books/why-men-love-bitches/</link>
       <pubDate>Tue, 04 Mar 2025 10:48:08 +0600</pubDate>
-      <guid>http://localhost:64635/books/why-men-love-bitches/</guid>
+      <guid>http://localhost:1313/books/why-men-love-bitches/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/71HncM+zhxL._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Sherry Argov&lt;/p&gt;&#xA;&lt;p&gt;Year: 2002&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Leetcode 100 [spring 2025]</title>
-      <link>http://localhost:64635/trackers/leetcode-100/</link>
+      <link>http://localhost:1313/trackers/leetcode-100/</link>
       <pubDate>Sat, 01 Mar 2025 15:22:17 +0600</pubDate>
-      <guid>http://localhost:64635/trackers/leetcode-100/</guid>
-      <description>&lt;p&gt;🎯 31/100&lt;/p&gt;&#xA;&lt;p&gt;100 литкод задачек на весну 2025&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;345&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;605&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1071&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1431&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1768&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;112&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;841&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;994&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;2390&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1926&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;283&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;392&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;643&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1732&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;724&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1493&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;735&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;443&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;334&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;238&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2215&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1207&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;933&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;206&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;104&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1657&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1004&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1679&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1456&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;151&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;872&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;700&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;83&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;14&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1466&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;35&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;110&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;338&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1480&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;11&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+      <guid>http://localhost:1313/trackers/leetcode-100/</guid>
+      <description>&lt;p&gt;🎯 35/100&lt;/p&gt;&#xA;&lt;p&gt;100 литкод задачек на весну 2025&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;345&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;605&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1071&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1431&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1768&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;112&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;841&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;994&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;2390&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;1926&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;283&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;392&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;643&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1732&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;724&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1493&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;735&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;443&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;334&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;238&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2215&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1207&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;933&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;206&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;104&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1657&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1004&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1679&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1456&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;151&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;872&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;700&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;83&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;14&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1466&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;35&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;110&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1399&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;66&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;338&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;1480&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;11&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2352&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;394&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;.&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>Good Startegy / Bad Strategy</title>
-      <link>http://localhost:64635/books/good-startegy-bad-strategy/</link>
+      <link>http://localhost:1313/books/good-startegy-bad-strategy/</link>
       <pubDate>Sat, 01 Mar 2025 10:47:00 +0600</pubDate>
-      <guid>http://localhost:64635/books/good-startegy-bad-strategy/</guid>
+      <guid>http://localhost:1313/books/good-startegy-bad-strategy/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/411KxIgNzIL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Richard Rumelt&lt;/p&gt;&#xA;&lt;p&gt;Year: 2011&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Court Of Thorns And Roses</title>
-      <link>http://localhost:64635/books/acotar/</link>
+      <link>http://localhost:1313/books/acotar/</link>
       <pubDate>Fri, 28 Feb 2025 10:45:45 +0600</pubDate>
-      <guid>http://localhost:64635/books/acotar/</guid>
+      <guid>http://localhost:1313/books/acotar/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://sarahjmaas.com/wp-content/uploads/2023/11/ACOTAR_1-min.jpg#bookcover&#34; alt=&#34;ACOTAR cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Sarah J. Maas&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thinking in Systems</title>
-      <link>http://localhost:64635/books/thinking-in-systems/</link>
+      <link>http://localhost:1313/books/thinking-in-systems/</link>
       <pubDate>Tue, 18 Feb 2025 10:44:13 +0600</pubDate>
-      <guid>http://localhost:64635/books/thinking-in-systems/</guid>
+      <guid>http://localhost:1313/books/thinking-in-systems/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://moreknig.org/uploads/posts/covers/63/85/medium/azbuka-sistemnogo-myshleniya-medouz-donella-99757.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Donella Meadows&lt;/p&gt;&#xA;&lt;p&gt;Year: 2008&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mindset</title>
-      <link>http://localhost:64635/books/mindset/</link>
+      <link>http://localhost:1313/books/mindset/</link>
       <pubDate>Sat, 15 Feb 2025 10:41:16 +0600</pubDate>
-      <guid>http://localhost:64635/books/mindset/</guid>
+      <guid>http://localhost:1313/books/mindset/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://ir-3.ozone.ru/s3/multimedia-a/wc1000/6759420022.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Carol Dweck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2006&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Way of Integrity</title>
-      <link>http://localhost:64635/books/integrity/</link>
+      <link>http://localhost:1313/books/integrity/</link>
       <pubDate>Fri, 07 Feb 2025 10:37:47 +0600</pubDate>
-      <guid>http://localhost:64635/books/integrity/</guid>
+      <guid>http://localhost:1313/books/integrity/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41ipeIFNOpL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Martha Beck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2021&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Creative Act: A Way Of Being</title>
-      <link>http://localhost:64635/books/creative-act/</link>
+      <link>http://localhost:1313/books/creative-act/</link>
       <pubDate>Mon, 30 Dec 2024 10:35:05 +0600</pubDate>
-      <guid>http://localhost:64635/books/creative-act/</guid>
+      <guid>http://localhost:1313/books/creative-act/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41GCniMAw0L._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Rick Rubin&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
   </channel>
