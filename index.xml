@@ -6,8 +6,15 @@
     <description>Recent content on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Apr 2025 19:32:05 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 14:38:05 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Art Of Community: 7 principles of belonging</title>
+      <link>http://localhost:1313/books/art-of-community/</link>
+      <pubDate>Sat, 26 Apr 2025 14:38:05 +0600</pubDate>
+      <guid>http://localhost:1313/books/art-of-community/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/71g3CVJa9EL._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Charles H. Vogl&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025 (2nd edition)&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🍧 REST Maturity Model</title>
       <link>http://localhost:1313/microservice-patterns/rmm/</link>
