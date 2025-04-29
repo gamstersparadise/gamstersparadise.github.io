@@ -3,13 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/books/</loc>
-    <lastmod>2025-04-26T14:38:05+06:00</lastmod>
+    <lastmod>2025-04-29T12:44:43+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/</loc>
-    <lastmod>2025-04-26T14:38:05+06:00</lastmod>
+    <lastmod>2025-04-29T12:44:43+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-26T14:38:05+06:00</lastmod>
+    <lastmod>2025-04-29T12:44:43+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/odin-v-okeane/</loc>
+    <lastmod>2025-04-29T12:44:43+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/art-of-community/</loc>
     <lastmod>2025-04-26T14:38:05+06:00</lastmod>
