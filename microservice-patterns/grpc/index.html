@@ -3,15 +3,43 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="gRPC - open source фреймворк для реализации клиент-серверного взаимодействия с помощью сообщений бинарного формата. Основная область применения - обеспечение связи в микросервисных приложениях. Работает независимо от языков, на которых написаны и клиент, и сервер.
-✧˚ ༘ ⋆｡˚На чем все держится: ✧˚ ༘ ⋆｡˚
+   <meta name="description" content="gRPC - open source RPC-фреймворк для реализации клиент-серверного взаимодействия с помощью сообщений бинарного формата. Основная область применения - обеспечение связи в микросервисных приложениях. Работает независимо от языков, на которых написаны и клиент, и сервер.
 
-Стандарт сериализации Protocol Buffers (Protobuf)
-HTTP/2
-Protocol Buffers-based IDL (Interface description language)
+  
+      
+          RPC framework essential feature
+          gRPC
+      
+  
+  
+      
+          способ определения типов параметров и возвращаемых значений
+          Использует Protobuf для строгой типизации. Типы данных определяются в .proto-файлах.
+      
+      
+          способ декларации доступных интерфейсов
+          Интерфейсы (сервисы) объявляются в .proto-файлах. Методы описываются сигнатурами.
+      
+      
+          протокол для взаимодействия
+          Работает поверх HTTP/2 (бинарный, поддерживает streaming)
+      
+      
+          RPC runtime
+          ✅
+      
+      
+          Server stubs
+          Автогенерация кода сервера из .proto-файла. Разработчик реализует логику методов, а gRPC обрабатывает сетевую часть.
+      
+      
+          Client stubs
+          Автогенерация клиентского кода (на разных языках). Клиент вызывает методы как локальные, а gRPC преобразует их в сетевые запросы.
+      
+  
 
-✧˚ ༘ ⋆｡˚ Как это работает? ✧˚ ༘ ⋆｡˚
-С помощью IDL дизайнится API (создаются proto-файлы).">  
+
+✧˚ ༘ ⋆｡˚ Как это работает? ✧˚ ༘ ⋆｡˚">  
 
   <title>
     
@@ -35,8 +63,8 @@ Protocol Buffers-based IDL (Interface description language)
 
 <article>
     <p class="post-meta">
-        <time datetime="2025-04-24 21:36:15 &#43;0600 &#43;06">
-            2025-04-24
+        <time datetime="2025-04-30 23:11:15 &#43;0600 &#43;06">
+            2025-04-30
         </time>
     </p>
 
@@ -44,13 +72,42 @@ Protocol Buffers-based IDL (Interface description language)
 
     
 
-    <p>gRPC - open source фреймворк для реализации клиент-серверного взаимодействия с помощью сообщений бинарного формата. Основная область применения - обеспечение связи в микросервисных приложениях. Работает независимо от языков, на которых написаны и клиент, и сервер.</p>
-<p>✧˚ ༘ ⋆｡˚На чем все держится: ✧˚ ༘ ⋆｡˚</p>
-<ul>
-<li>Стандарт сериализации Protocol Buffers (Protobuf)</li>
-<li>HTTP/2</li>
-<li>Protocol Buffers-based IDL <em>(Interface description language)</em></li>
-</ul>
+    <p>gRPC - open source <a href="../rpc-fundamentals">RPC-фреймворк</a> для реализации клиент-серверного взаимодействия с помощью сообщений бинарного формата. Основная область применения - обеспечение связи в микросервисных приложениях. Работает независимо от языков, на которых написаны и клиент, и сервер.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">RPC framework essential feature</th>
+          <th>gRPC</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">способ определения типов параметров и возвращаемых значений</td>
+          <td>Использует Protobuf для строгой типизации. Типы данных определяются в .proto-файлах.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">способ декларации доступных интерфейсов</td>
+          <td>Интерфейсы (сервисы) объявляются в .proto-файлах. Методы описываются сигнатурами.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">протокол для взаимодействия</td>
+          <td>Работает поверх HTTP/2 (бинарный, поддерживает streaming)</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">RPC runtime</td>
+          <td>✅</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Server stubs</td>
+          <td>Автогенерация кода сервера из .proto-файла. Разработчик реализует логику методов, а gRPC обрабатывает сетевую часть.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Client stubs</td>
+          <td>Автогенерация клиентского кода (на разных языках). Клиент вызывает методы как локальные, а gRPC преобразует их в сетевые запросы.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
 <p>✧˚ ༘ ⋆｡˚ Как это работает? ✧˚ ༘ ⋆｡˚</p>
 <p>С помощью IDL дизайнится API (создаются proto-файлы).</p>
 <p>Protocol Buffers-based IDL, which is Google’s language-neutral mechanism for serializing structured data
