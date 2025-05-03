@@ -26,7 +26,7 @@
       
       
           RPC runtime
-          ✅
+          (TODO) gRPC предоставляет встроенную поддержку аутентификации, балансировки нагрузки, таймаутов и обработки ошибок
       
       
           Server stubs
@@ -95,7 +95,7 @@
       </tr>
       <tr>
           <td style="text-align: center">RPC runtime</td>
-          <td>✅</td>
+          <td><em>(TODO)</em> gRPC предоставляет встроенную поддержку аутентификации, балансировки нагрузки, таймаутов и обработки ошибок</td>
       </tr>
       <tr>
           <td style="text-align: center">Server stubs</td>
@@ -109,27 +109,33 @@
 </table>
 <hr>
 <p>✧˚ ༘ ⋆｡˚ Как это работает? ✧˚ ༘ ⋆｡˚</p>
-<p>С помощью IDL дизайнится API (создаются proto-файлы).</p>
-<p>Protocol Buffers-based IDL, which is Google’s language-neutral mechanism for serializing structured data
-Protocol Buffer compiler  generates client-side stubs and server-side skeletons.
-Clients and servers exchange binary messages in the Protocol Buffers format using HTTP/2.</p>
+<ol>
+<li>С помощью IDL дизайнится API (создаются proto-файлы).</li>
+<li>protoc (компилятор Protobuf) генерирует на их основе клиентсике и серверные заглушки.</li>
+<li>Разработчик пишет бизнес-логику сервера и использует клиентские stubs для вызовов.</li>
+<li>gRPC автоматически сериализует/десериализует сообщения и управляет передачей по HTTP/2</li>
+</ol>
 <hr>
-<p>gRPC API</p>
-<p>A gRPC API consists of one or more services and request/response message definitions. A service definition is analogous to a Java interface and is a collection of strongly typed methods. As well as supporting simple request/response RPC, gRPC support streaming RPC. A server can reply with a stream of messages to the client. Alterna- tively, a client can send a stream of messages to the server.</p>
-<p>gRPC uses Protocol Buffers as the message format.</p>
+<p><strong>gRPC API</strong> - набор сервисов и доступных для вызова request/response-сообщений. Сервис - аналог интерфейса в Java с четко заданными типами параметров и возвращаемых значений.</p>
+<p><strong>Streaming</strong>
+gRPC предоставляет возможность обработки потоковых сообщений (как от клиента к серверу, так и наоборот).</p>
 <hr>
 <h3 id="про-хорошее">Про хорошее</h3>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Решается проблема с недостаточностью HTTP-глаголов - все операции можно определить красиво и без костылей</li>
+<li>Работает эффективно, подходит для больших объемов данных</li>
+<li>Есть двусторонний стриминг</li>
+<li>Подходит для связывания частей системы, написанных с использованием разных технологий</li>
+<li>Встроенные механизмы observability (метрики, логи, трассировка)</li>
 </ul>
 <h3 id="про-плохое">Про плохое</h3>
 <ul>
-<li></li>
-<li></li>
+<li>Браузерам и JS грустно: нативные браузерные API не поддерживают gRPC напрямую (нет доступа к HTTP/2-функциям), но есть gRPC-Web.</li>
+<li>Не все среды поддерживают HTTP/2</li>
+<li>Бинарный Protobuf сложнее дебажить, чем JSON</li>
+<li>Сложность с кешированием (по сравнению с REST)</li>
 </ul>
+<hr>
 
 </article>
 
