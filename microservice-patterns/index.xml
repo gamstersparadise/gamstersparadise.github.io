@@ -6,8 +6,15 @@
     <description>Recent content in Microservice Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 May 2025 20:28:41 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 21:36:34 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🫧 Async Messaging for Availability</title>
+      <link>http://localhost:1313/microservice-patterns/async-messaging-for-availability/</link>
+      <pubDate>Sat, 03 May 2025 21:36:34 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/async-messaging-for-availability/</guid>
+      <description>&lt;p&gt;Availability (доступность) - процент времени, когда система работает и готова к использованию.&lt;/p&gt;&#xA;&lt;p&gt;Availability = (Время работы системы / Общее время) × 100%&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Синхронное взаимодействие уменьшает availability системы.&lt;/strong&gt; Почему? Если система делает синхронные вызовы к другим сервисам, её доступность становится зависимой от доступности этих сервисов, т.к. availability системной операции = произведение availability всех сервисов, вызванных данной операцией. Получается, чем больше обращений к внешним источникам и чем больше сторонних команд - тем больше шансов, что операция не будет произведена верным образом.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🍒 Async Messaging</title>
       <link>http://localhost:1313/microservice-patterns/async-messaging/</link>
