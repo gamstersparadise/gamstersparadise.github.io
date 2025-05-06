@@ -6,8 +6,15 @@
     <description>Recent content in Microservice Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 May 2025 10:49:09 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 16:33:13 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🌺 Transactions</title>
+      <link>http://localhost:1313/microservice-patterns/transactions/</link>
+      <pubDate>Tue, 06 May 2025 16:33:13 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/transactions/</guid>
+      <description>&lt;p&gt;Транзакция - набор операций, который имеет смысл и может быть совершен &lt;strong&gt;только полностью&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;транзакции-в-монолитах-с-единственной-бд&#34;&gt;Транзакции в монолитах с единственной БД&lt;/h4&gt;&#xA;&lt;p&gt;Вот в данном кейсе - это просто. Многие фреймворки/решения предлагают автоматическую поддержку транзакций через аннторации/функции и т.д. &lt;em&gt;Все даже может соответствовать &lt;a href=&#34;../acid&#34;&gt;ACID&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Неприятности начинаются, когда появляются несколько БД, брокеры и все прочие радости больших систем. Что делать, если транзакция затрагивает сервисов в системе с микросервисной архитектурой?&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Распределенные транзакции (distributed transactions)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;В целом, для распределенных транзакций есть стандарт &lt;em&gt;The X/Open Distributed Transaction Processing (DTP) model&lt;/em&gt;. Для программиста все выглядит, как будто он работает с локальными транзакциями, а на деле система поддерживает данные в разных сервисах.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🦩 CAP Theorem</title>
       <link>http://localhost:1313/microservice-patterns/cap/</link>
