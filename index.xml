@@ -6,8 +6,15 @@
     <description>Recent content on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 May 2025 15:20:42 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 20:06:04 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🍰 ACID</title>
+      <link>http://localhost:1313/microservice-patterns/acid/</link>
+      <pubDate>Mon, 05 May 2025 20:06:04 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/acid/</guid>
+      <description>&lt;p&gt;Транзакция - набор операций, который имеет смысл и может быть совершен &lt;strong&gt;только полностью&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;ACID - набор требований, обеспечивающий надежную и предсказуемую работу с данными. По классике это аббревиатура.&lt;/p&gt;&#xA;&lt;h2 id=&#34;𖦹-atomicity&#34;&gt;𖦹 Atomicity&lt;/h2&gt;&#xA;&lt;p&gt;Каждая транзакция или выполняется полностью, или не выполняется вообще.&lt;/p&gt;&#xA;&lt;h2 id=&#34;𖦹-consistency&#34;&gt;𖦹 Consistency&lt;/h2&gt;&#xA;&lt;p&gt;Каждая транзакция переводит БД из одного согласованного состояния в другое согласованное состояние. Не должно быть неконсистентности данных.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;-&amp;gt; Что такое согласованное (консистентное) состояние?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Целостность данных, их внутренняя непротиворечивость&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;𖦹-isolation&#34;&gt;𖦹 Isolation&lt;/h2&gt;&#xA;&lt;p&gt;Во время выполнения транзакции параллельные транзакции не должны оказывать влияния на её результат.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🩷 Circuit Breaker</title>
       <link>http://localhost:1313/microservice-patterns/circuit-breaker/</link>
