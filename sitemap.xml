@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/books/</loc>
+    <lastmod>2025-05-12T11:01:43+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/</loc>
+    <lastmod>2025-05-12T11:01:43+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-05-12T11:01:43+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/grokking-algorithms/</loc>
+    <lastmod>2025-05-12T11:01:43+06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/microservice-patterns/lack-of-isolation/</loc>
     <lastmod>2025-05-06T20:24:54+06:00</lastmod>
   </url><url>
@@ -19,15 +31,6 @@
   </url><url>
     <loc>http://localhost:1313/microservice-patterns/circuit-breaker/</loc>
     <lastmod>2025-05-05T15:20:42+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/books/</loc>
-    <lastmod>2025-05-04T19:32:54+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/books/</loc>
-    <lastmod>2025-05-04T19:32:54+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-04T19:32:54+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/the-broken-rung/</loc>
     <lastmod>2025-05-04T19:32:54+06:00</lastmod>
