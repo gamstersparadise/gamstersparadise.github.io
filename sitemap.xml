@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/algorithms/binary-search/</loc>
-    <lastmod>2025-05-13T19:15:09+06:00</lastmod>
+    <loc>http://localhost:1313/algorithms/binary-search-on-answer/</loc>
+    <lastmod>2025-05-13T20:29:17+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/algorithms/</loc>
+    <lastmod>2025-05-13T20:29:17+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/algorithms/binary-search/</loc>
     <lastmod>2025-05-13T19:15:09+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/books/</loc>
