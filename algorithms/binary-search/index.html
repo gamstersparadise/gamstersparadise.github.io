@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Классика
+Классический бинарный поиск делит упорядоченный массив пополам до тех пор, пока не найдет нужный элемент или же активный массив (arr[i:j]) не схлопнется. На каждой итерации средний элемент активного массива сравнивается с искомым элементом x: если мы перепрыгнули х, то активной считается первая половина массива, если наоборот - то вторая.
+-&gt; Работает за O(log n)
+func classicBinarySearch(arr []int, x int) int {
+	n := len(arr)
+	i, j := 0, n-1
+
+	for i &lt;= j {
+		k := i &#43; (j-i)/2
+		if arr[k] == x {
+			return k // возвращаем индекс искомого элемента
+		}
+		if k &gt; x {
+			j = k - 1
+		} else {
+			i = k &#43; 1
+		}
+	}
+	return -1 // если искомый элемент не найден
+}
+Прыгаем
+Слева направо просматриваем массив, прыгая по нему прыжками размера n/2, n/4, n/8 и т.д., где n - длина массива. Если текущий прыжок слишком большой и перепрыгивает нужный элемент x, он уменьшается на следующей итерации. Если нет - сдвигаемся ближе к искомому элементу.">  
+
+  <title>
+    
+      💞 Binary Search
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.89f1f43052eb76761ccb6b4a22b0ad83287cfdf92b5dbbf9a90c26fdcee4b3a1f2a22a2956d619e062777a543c4c63006e57f0984b4dcd0fd2d221326f93ac48.css" integrity="sha512-ifH0MFLrdnYcy2tKIrCtgyh8/fkrXbv5qQwm/c7ks6HyoiopVtYZ4GJ3elQ8TGMAblfwmEtNzQ/S0iEyb5OsSA==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<a href="/">..</a>
+
+
+<article>
+    <p class="post-meta">
+        <time datetime="2025-05-13 19:15:09 &#43;0600 &#43;06">
+            2025-05-13
+        </time>
+    </p>
+
+    <h1>💞 Binary Search</h1>
+
+    
+
+    <h3 id="классика">Классика</h3>
+<p>Классический бинарный поиск делит упорядоченный массив пополам до тех пор, пока не найдет нужный элемент или же активный массив (arr[i:j]) не схлопнется. На каждой итерации средний элемент активного массива сравнивается с искомым элементом <em>x</em>: если мы <em>перепрыгнули х</em>, то активной считается первая половина массива, если наоборот - то вторая.</p>
+<p>-&gt; Работает за <strong>O(log n)</strong></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">func</span> <span style="color:#00a000">classicBinarySearch</span>(arr []<span style="color:#0b0;font-weight:bold">int</span>, x <span style="color:#0b0;font-weight:bold">int</span>) <span style="color:#0b0;font-weight:bold">int</span> {
+</span></span><span style="display:flex;"><span>	n <span style="color:#666">:=</span> <span style="color:#a2f">len</span>(arr)
+</span></span><span style="display:flex;"><span>	i, j <span style="color:#666">:=</span> <span style="color:#666">0</span>, n<span style="color:#666">-</span><span style="color:#666">1</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#666">&lt;=</span> j {
+</span></span><span style="display:flex;"><span>		k <span style="color:#666">:=</span> i <span style="color:#666">+</span> (j<span style="color:#666">-</span>i)<span style="color:#666">/</span><span style="color:#666">2</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a2f;font-weight:bold">if</span> arr[k] <span style="color:#666">==</span> x {
+</span></span><span style="display:flex;"><span>			<span style="color:#a2f;font-weight:bold">return</span> k <span style="color:#080;font-style:italic">// возвращаем индекс искомого элемента
+</span></span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic"></span>		}
+</span></span><span style="display:flex;"><span>		<span style="color:#a2f;font-weight:bold">if</span> k &gt; x {
+</span></span><span style="display:flex;"><span>			j = k <span style="color:#666">-</span> <span style="color:#666">1</span>
+</span></span><span style="display:flex;"><span>		} <span style="color:#a2f;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>			i = k <span style="color:#666">+</span> <span style="color:#666">1</span>
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#a2f;font-weight:bold">return</span> <span style="color:#666">-</span><span style="color:#666">1</span> <span style="color:#080;font-style:italic">// если искомый элемент не найден
+</span></span></span><span style="display:flex;"><span><span style="color:#080;font-style:italic"></span>}
+</span></span></code></pre></div><h3 id="прыгаем">Прыгаем</h3>
+<p>Слева направо просматриваем массив, прыгая по нему прыжками размера <em>n/2, n/4, n/8</em> и т.д., где n - длина массива. Если текущий прыжок слишком большой и <em>перепрыгивает</em> нужный элемент <em>x</em>, он уменьшается на следующей итерации. Если нет - сдвигаемся ближе к искомому элементу.</p>
+<p>-&gt; Работает тоже за <strong>O(log n)</strong> т.к. цикл для каждой плины прыжка <em>dist</em> выполнится не более 2 раз</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">func</span> <span style="color:#00a000">jumpingBinarySearch</span>(arr []<span style="color:#0b0;font-weight:bold">int</span>, x <span style="color:#0b0;font-weight:bold">int</span>) <span style="color:#0b0;font-weight:bold">int</span> {
+</span></span><span style="display:flex;"><span>	n <span style="color:#666">:=</span> <span style="color:#a2f">len</span>(arr)
+</span></span><span style="display:flex;"><span>	k <span style="color:#666">:=</span> <span style="color:#666">0</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a2f;font-weight:bold">for</span> dist <span style="color:#666">:=</span> n <span style="color:#666">/</span> <span style="color:#666">2</span>; dist <span style="color:#666">&gt;=</span> <span style="color:#666">1</span>; dist <span style="color:#666">/=</span> <span style="color:#666">2</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a2f;font-weight:bold">for</span> k<span style="color:#666">+</span>dist &lt; n <span style="color:#666">&amp;&amp;</span> arr[k<span style="color:#666">+</span>dist] <span style="color:#666">&lt;=</span> x {
+</span></span><span style="display:flex;"><span>			k = k <span style="color:#666">+</span> dist
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#a2f;font-weight:bold">if</span> arr[k] <span style="color:#666">==</span> x {
+</span></span><span style="display:flex;"><span>		<span style="color:#a2f;font-weight:bold">return</span> k
+</span></span><span style="display:flex;"><span>	} <span style="color:#a2f;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a2f;font-weight:bold">return</span> <span style="color:#666">-</span><span style="color:#666">1</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+</article>
+
+                
+
+            </div>
+        </main>
+    </body>
+</html>
