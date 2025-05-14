@@ -6,8 +6,15 @@
     <description>Recent content in Microservice Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 May 2025 15:07:37 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 14 May 2025 16:24:30 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>💐 BFF</title>
+      <link>http://localhost:1313/microservice-patterns/bff/</link>
+      <pubDate>Wed, 14 May 2025 16:24:30 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/bff/</guid>
+      <description>&lt;h2 id=&#34;bff--backend-for-frontend&#34;&gt;BFF = Backend for frontend&lt;/h2&gt;&#xA;&lt;p&gt;Смысл: для каждого клиента - свой &lt;a href=&#34;../api-gateway&#34;&gt;API gateway&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/bff.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;API gateway для определенного клиента поддерживется командой разработки этого самого клиента.&lt;/p&gt;&#xA;&lt;h3 id=&#34;--плюсы&#34;&gt;-&amp;gt; Плюсы&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Разделение обязанностей (команды друг другу не мешают)&lt;/li&gt;&#xA;&lt;li&gt;Можно независимо секйлить разные части&lt;/li&gt;&#xA;&lt;li&gt;Один сломанный BFF (например, зависший или потребляющий слишком много ресурсов) не повлияет на работу других&lt;/li&gt;&#xA;&lt;li&gt;Удобнее мониторить&lt;/li&gt;&#xA;&lt;li&gt;Упрощается CI/CD, так как изменения в одном BFF не требуют пересборки всего остального&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>🌼 API Gateway</title>
       <link>http://localhost:1313/microservice-patterns/api-gateway/</link>
