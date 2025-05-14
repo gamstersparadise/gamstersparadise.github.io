@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/microservice-patterns/orchestration/</loc>
+    <lastmod>2025-05-14T10:01:50+06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/algorithms/binary-search-on-answer/</loc>
     <lastmod>2025-05-13T20:29:17+06:00</lastmod>
   </url><url>
@@ -22,6 +25,9 @@
   </url><url>
     <loc>http://localhost:1313/books/grokking-algorithms/</loc>
     <lastmod>2025-05-12T11:01:43+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/microservice-patterns/choreography/</loc>
+    <lastmod>2025-05-10T23:26:40+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/microservice-patterns/lack-of-isolation/</loc>
     <lastmod>2025-05-06T20:24:54+06:00</lastmod>
