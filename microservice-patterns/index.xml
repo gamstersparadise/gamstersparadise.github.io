@@ -6,8 +6,15 @@
     <description>Recent content in Microservice Patterns on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 May 2025 16:24:30 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 13:03:55 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/microservice-patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🏄🏼‍♀️ Test Quardrant &amp; Test Pyramid</title>
+      <link>http://localhost:1313/microservice-patterns/testing-overview/</link>
+      <pubDate>Thu, 15 May 2025 13:03:55 +0600</pubDate>
+      <guid>http://localhost:1313/microservice-patterns/testing-overview/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Тест кейс (test case)&lt;/strong&gt; - набор входящих данных, условий выполнения программы и ожидаемых результатов, который позволяет подтвердить корректную работу тустируемогй функциональности.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Тест сьют (test suite)&lt;/strong&gt; - выборка связанных тест-кейсов.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Фазы почти любого автоматизированного теста:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Set up&lt;/li&gt;&#xA;&lt;li&gt;Выполнение&lt;/li&gt;&#xA;&lt;li&gt;Сравнение с ожидаемым результатом&lt;/li&gt;&#xA;&lt;li&gt;Clean up&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;-&amp;gt; Типы тестов&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Юнит тесты&lt;/strong&gt; - самые small тесты для тестирования конкретных частей кода (e.g. класс, функция)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Интеграционные тесты&lt;/strong&gt; - тесты, проверяющие взаимодействие с БД, внешними сервисами&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Компонентные тесты&lt;/strong&gt; - приемочные тесты индивидуального сервиса&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;End-to-end тесты&lt;/strong&gt; - приемочные тесты всего приложения целиком&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Посмотрим на 2 принятых варианта категоризации тестов:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>💐 BFF</title>
       <link>http://localhost:1313/microservice-patterns/bff/</link>
