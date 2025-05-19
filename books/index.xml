@@ -6,8 +6,15 @@
     <description>Recent content in Books on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 May 2025 11:01:43 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 15:30:43 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Искусство Войны</title>
+      <link>http://localhost:1313/books/art-of-war/</link>
+      <pubDate>Mon, 19 May 2025 15:30:43 +0600</pubDate>
+      <guid>http://localhost:1313/books/art-of-war/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ndc.book24.ru/resize/820x1180/pim/products/images/3f/d0/01919722-ea06-78ee-9ec2-52682a033fd0.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Сунь Цзы&lt;/p&gt;&#xA;&lt;p&gt;Year: ?&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Grokking Algorithms</title>
       <link>http://localhost:1313/books/grokking-algorithms/</link>

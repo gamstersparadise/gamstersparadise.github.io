@@ -6,8 +6,15 @@
     <description>Recent content on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 May 2025 13:03:55 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 15:30:43 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Искусство Войны</title>
+      <link>http://localhost:1313/books/art-of-war/</link>
+      <pubDate>Mon, 19 May 2025 15:30:43 +0600</pubDate>
+      <guid>http://localhost:1313/books/art-of-war/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ndc.book24.ru/resize/820x1180/pim/products/images/3f/d0/01919722-ea06-78ee-9ec2-52682a033fd0.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Сунь Цзы&lt;/p&gt;&#xA;&lt;p&gt;Year: ?&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🏄🏼‍♀️ Test Quadrant &amp; Test Pyramid</title>
       <link>http://localhost:1313/microservice-patterns/testing-overview/</link>
@@ -153,7 +160,7 @@
       <link>http://localhost:1313/microservice-patterns/rpc-fundamentals/</link>
       <pubDate>Wed, 30 Apr 2025 21:07:12 +0600</pubDate>
       <guid>http://localhost:1313/microservice-patterns/rpc-fundamentals/</guid>
-      <description>&lt;h4 id=&#34;--local--remote-procedure-calls&#34;&gt;-&amp;gt; Local / Remote Procedure Calls&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;Local procedure call&lt;/em&gt; - вызов процедуры в одной и той же программе.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Remote procedure call (RPC)&lt;/em&gt; - вызов процедуры по сети. Происзодит имитация локального вызова&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;--rpc-framework-essentials&#34;&gt;-&amp;gt; RPC Framework essentials&lt;/h4&gt;&#xA;&lt;p&gt;Каждый RPC фреймворк должен предоставлять:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;способ декларации доступных интерфейсов (какие процедуры можно вызвать remotely?) &lt;em&gt;(e.g. через interface в Java или .proto в gRPC)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;способ определения типов параметров и возвращаемых значений (что ожидаем на входе и на выходе?) &lt;em&gt;(e.g. Protobuf, JSON Schema)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;протокол для взаимодействия участников (по каким правилам общаются отправитель запроса и выполнитель процедуры?) &lt;em&gt;(e.g. HTTP/2 в gRPC)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Client stubs (codegen helper-ы, отвечающие за коммуникацию по сети, маршалинг-анмаршалинг и обработку ошибок). Генерируются или на этапе компиляции или динамически в рантайме&lt;/li&gt;&#xA;&lt;li&gt;Server stubs (Skeletons) принимает запрос, вызывает реальный метод, возвращает результат.&lt;/li&gt;&#xA;&lt;li&gt;RPC runtime, который менеджерит client stubs. По сути сервер, ожидающий запросов&lt;/li&gt;&#xA;&lt;li&gt;(?) возможно service discovery //TODO&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h4 id=&#34;--marshaling--unmarshaling&#34;&gt;-&amp;gt; Marshaling / Unmarshaling&lt;/h4&gt;&#xA;&lt;p&gt;Marshaling - запаковка&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;--local--remote-procedure-calls&#34;&gt;-&amp;gt; Local / Remote Procedure Calls&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;Local procedure call&lt;/em&gt; - вызов процедуры в одной и той же программе.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Remote procedure call (RPC)&lt;/em&gt; - вызов процедуры по сети. Происзодит имитация локального вызова&lt;/p&gt;&#xA;&lt;p&gt;Также &lt;strong&gt;RPC - это протокол&lt;/strong&gt;, позволяющий программе на одном компьютере вызвать функцию на другом компьютере так, будто эта функция находится на первом компьютере. Это упрощает взаимодействие между программами, распределенными по разным системам, и скрывает сложность сетевого взаимодействия. &lt;em&gt;(определение взято из интернета)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Один в Океане: История Побега</title>
