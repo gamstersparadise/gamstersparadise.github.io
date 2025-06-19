@@ -6,8 +6,15 @@
     <description>Recent content in Books on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 May 2025 07:42:06 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 13:13:48 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The First 90 Days</title>
+      <link>http://localhost:1313/books/90-days/</link>
+      <pubDate>Thu, 19 Jun 2025 13:13:48 +0600</pubDate>
+      <guid>http://localhost:1313/books/90-days/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://cdn.litres.ru/pub/c/cover_415/23515945.webp#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Michael D. Watkins&lt;/p&gt;&#xA;&lt;p&gt;Year: 2013&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Confidence Code</title>
       <link>http://localhost:1313/books/confidence-code/</link>
