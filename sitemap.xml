@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/system-design/hash-tree/</loc>
+    <lastmod>2025-06-20T19:11:05+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/system-design/gossip-protocol/</loc>
+    <lastmod>2025-06-20T15:43:58+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/system-design/vector-clock/</loc>
+    <lastmod>2025-06-20T14:39:39+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/system-design/consistency-models/</loc>
+    <lastmod>2025-06-20T14:28:09+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/system-design/quorum-consensus/</loc>
+    <lastmod>2025-06-20T13:39:23+06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/books/</loc>
     <lastmod>2025-06-19T13:13:48+06:00</lastmod>
   </url><url>
