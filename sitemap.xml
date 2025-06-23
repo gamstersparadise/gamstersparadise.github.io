@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/dia/</loc>
+    <lastmod>2025-06-23T19:55:49+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/dia/star-schema/</loc>
+    <lastmod>2025-06-23T19:51:03+06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/system-design/hash-tree/</loc>
     <lastmod>2025-06-20T19:11:05+06:00</lastmod>
   </url><url>

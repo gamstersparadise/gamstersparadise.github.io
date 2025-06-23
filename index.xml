@@ -6,8 +6,15 @@
     <description>Recent content on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jun 2025 19:11:05 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 19:51:03 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>⭐ Star Schema</title>
+      <link>http://localhost:1313/dia/star-schema/</link>
+      <pubDate>Mon, 23 Jun 2025 19:51:03 +0600</pubDate>
+      <guid>http://localhost:1313/dia/star-schema/</guid>
+      <description>&lt;h3 id=&#34;паттерны-доступа-к-данным&#34;&gt;Паттерны доступа к данным&lt;/h3&gt;&#xA;&lt;p&gt;OLTP (online transaction processing) - про сбор данных и поддержание их состояния&lt;/p&gt;&#xA;&lt;p&gt;OLAP (online analytical processing) - про обработку собранных данных&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/oltp-olap.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;как-устроены-бд-для-аналитики&#34;&gt;Как устроены БД для аналитики?&lt;/h2&gt;&#xA;&lt;p&gt;Star shema = таблица фактов + таблица измерений&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/b/bb/Star-schema.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Почему &amp;ldquo;звезда&amp;rdquo;? Потому что при визуализации связей таблиц таблица фактов находится посередине, окруженная таблицами измерений, а связи с этими таблицами напоминают лучи звезды.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;❄️ &lt;strong&gt;Схема снежинки&lt;/strong&gt; - когда в таблицах измерений есть дальнейшее разбиение на подизмерения (но классик звезды удобнее как никак)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🌳 Merkle (Hash) Tree</title>
       <link>http://localhost:1313/system-design/hash-tree/</link>
