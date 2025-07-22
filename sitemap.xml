@@ -2,219 +2,222 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/microservice-patterns/unit-testing/</loc>
+    <loc>https://gamstersparadise.github.io/books/101-essays/</loc>
+    <lastmod>2025-07-22T21:53:53+06:00</lastmod>
+  </url><url>
+    <loc>https://gamstersparadise.github.io/categories/books/</loc>
+    <lastmod>2025-07-22T21:53:53+06:00</lastmod>
+  </url><url>
+    <loc>https://gamstersparadise.github.io/books/</loc>
+    <lastmod>2025-07-22T21:53:53+06:00</lastmod>
+  </url><url>
+    <loc>https://gamstersparadise.github.io/categories/</loc>
+    <lastmod>2025-07-22T21:53:53+06:00</lastmod>
+  </url><url>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/unit-testing/</loc>
     <lastmod>2025-07-07T22:54:52+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/dia/</loc>
+    <loc>https://gamstersparadise.github.io/dia/</loc>
     <lastmod>2025-06-23T19:55:49+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/dia/star-schema/</loc>
+    <loc>https://gamstersparadise.github.io/dia/star-schema/</loc>
     <lastmod>2025-06-23T19:51:03+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/system-design/hash-tree/</loc>
+    <loc>https://gamstersparadise.github.io/system-design/hash-tree/</loc>
     <lastmod>2025-06-20T19:11:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/system-design/gossip-protocol/</loc>
+    <loc>https://gamstersparadise.github.io/system-design/gossip-protocol/</loc>
     <lastmod>2025-06-20T15:43:58+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/system-design/vector-clock/</loc>
+    <loc>https://gamstersparadise.github.io/system-design/vector-clock/</loc>
     <lastmod>2025-06-20T14:39:39+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/system-design/consistency-models/</loc>
+    <loc>https://gamstersparadise.github.io/system-design/consistency-models/</loc>
     <lastmod>2025-06-20T14:28:09+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/system-design/quorum-consensus/</loc>
+    <loc>https://gamstersparadise.github.io/system-design/quorum-consensus/</loc>
     <lastmod>2025-06-20T13:39:23+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/books/</loc>
+    <loc>https://gamstersparadise.github.io/books/90-days/</loc>
     <lastmod>2025-06-19T13:13:48+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/</loc>
-    <lastmod>2025-06-19T13:13:48+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-06-19T13:13:48+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/books/90-days/</loc>
-    <lastmod>2025-06-19T13:13:48+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/system-design/rate-limiting-strategies/</loc>
+    <loc>https://gamstersparadise.github.io/system-design/rate-limiting-strategies/</loc>
     <lastmod>2025-06-18T11:08:51+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/code/</loc>
+    <loc>https://gamstersparadise.github.io/books/code/</loc>
     <lastmod>2025-06-13T18:31:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/four-hour-work-week/</loc>
+    <loc>https://gamstersparadise.github.io/books/four-hour-work-week/</loc>
     <lastmod>2025-06-03T17:47:45+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/confidence-code/</loc>
+    <loc>https://gamstersparadise.github.io/books/confidence-code/</loc>
     <lastmod>2025-05-22T07:42:06+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/art-of-war/</loc>
+    <loc>https://gamstersparadise.github.io/books/art-of-war/</loc>
     <lastmod>2025-05-19T15:30:43+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/testing-overview/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/testing-overview/</loc>
     <lastmod>2025-05-15T13:03:55+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/bff/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/bff/</loc>
     <lastmod>2025-05-14T16:24:30+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/api-gateway/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/api-gateway/</loc>
     <lastmod>2025-05-14T15:07:37+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/orchestration/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/orchestration/</loc>
     <lastmod>2025-05-14T10:01:50+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/algorithms/binary-search-on-answer/</loc>
+    <loc>https://gamstersparadise.github.io/algorithms/binary-search-on-answer/</loc>
     <lastmod>2025-05-13T20:29:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/algorithms/</loc>
+    <loc>https://gamstersparadise.github.io/algorithms/</loc>
     <lastmod>2025-05-13T20:29:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/algorithms/binary-search/</loc>
+    <loc>https://gamstersparadise.github.io/algorithms/binary-search/</loc>
     <lastmod>2025-05-13T19:15:09+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/grokking-algorithms/</loc>
+    <loc>https://gamstersparadise.github.io/books/grokking-algorithms/</loc>
     <lastmod>2025-05-12T11:01:43+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/choreography/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/choreography/</loc>
     <lastmod>2025-05-10T23:26:40+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/lack-of-isolation/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/lack-of-isolation/</loc>
     <lastmod>2025-05-06T20:24:54+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/saga/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/saga/</loc>
     <lastmod>2025-05-06T19:18:26+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/transactions/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/transactions/</loc>
     <lastmod>2025-05-06T16:33:13+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/cap/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/cap/</loc>
     <lastmod>2025-05-06T10:49:09+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/acid/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/acid/</loc>
     <lastmod>2025-05-05T20:06:04+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/circuit-breaker/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/circuit-breaker/</loc>
     <lastmod>2025-05-05T15:20:42+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/the-broken-rung/</loc>
+    <loc>https://gamstersparadise.github.io/books/the-broken-rung/</loc>
     <lastmod>2025-05-04T19:32:54+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/async-messaging-for-availability/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/async-messaging-for-availability/</loc>
     <lastmod>2025-05-03T21:36:34+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/async-messaging/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/async-messaging/</loc>
     <lastmod>2025-05-03T20:28:41+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/stillness-speaks/</loc>
+    <loc>https://gamstersparadise.github.io/books/stillness-speaks/</loc>
     <lastmod>2025-05-03T09:50:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/grpc/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/grpc/</loc>
     <lastmod>2025-04-30T23:11:15+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/rest-vs-rpc/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/rest-vs-rpc/</loc>
     <lastmod>2025-04-30T22:12:15+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/rpc-fundamentals/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/rpc-fundamentals/</loc>
     <lastmod>2025-04-30T21:07:12+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/odin-v-okeane/</loc>
+    <loc>https://gamstersparadise.github.io/books/odin-v-okeane/</loc>
     <lastmod>2025-04-29T12:44:43+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/art-of-community/</loc>
+    <loc>https://gamstersparadise.github.io/books/art-of-community/</loc>
     <lastmod>2025-04-26T14:38:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/rmm/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/rmm/</loc>
     <lastmod>2025-04-24T19:32:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/rest/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/rest/</loc>
     <lastmod>2025-04-23T21:39:46+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/ipc/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/ipc/</loc>
     <lastmod>2025-04-23T21:03:27+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/monolith/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/monolith/</loc>
     <lastmod>2025-04-22T23:09:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/layered-architecture/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/layered-architecture/</loc>
     <lastmod>2025-04-22T22:21:01+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/three-tier-architecture/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/three-tier-architecture/</loc>
     <lastmod>2025-04-22T21:43:49+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/microservices/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/microservices/</loc>
     <lastmod>2025-04-22T15:52:27+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/</loc>
     <lastmod>2025-04-22T12:37:49+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/system-design/</loc>
+    <loc>https://gamstersparadise.github.io/system-design/</loc>
     <lastmod>2025-04-22T12:37:49+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microservice-patterns/hexagonal-architecture/</loc>
+    <loc>https://gamstersparadise.github.io/microservice-patterns/hexagonal-architecture/</loc>
     <lastmod>2025-04-22T10:15:45+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/first-rule-of-mastery/</loc>
+    <loc>https://gamstersparadise.github.io/books/first-rule-of-mastery/</loc>
     <lastmod>2025-04-21T22:24:53+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/mindpower/</loc>
+    <loc>https://gamstersparadise.github.io/books/mindpower/</loc>
     <lastmod>2025-04-18T11:24:37+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/influence/</loc>
+    <loc>https://gamstersparadise.github.io/books/influence/</loc>
     <lastmod>2025-04-18T11:03:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/miracle-mind-dynamics/</loc>
+    <loc>https://gamstersparadise.github.io/books/miracle-mind-dynamics/</loc>
     <lastmod>2025-04-13T11:26:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/true-and-false-magic/</loc>
+    <loc>https://gamstersparadise.github.io/books/true-and-false-magic/</loc>
     <lastmod>2025-04-03T11:02:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/captivate/</loc>
+    <loc>https://gamstersparadise.github.io/books/captivate/</loc>
     <lastmod>2025-03-31T11:01:03+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/hoodwinked/</loc>
+    <loc>https://gamstersparadise.github.io/books/hoodwinked/</loc>
     <lastmod>2025-03-22T10:54:25+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/presence/</loc>
+    <loc>https://gamstersparadise.github.io/books/presence/</loc>
     <lastmod>2025-03-12T10:52:07+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/love-worth-making/</loc>
+    <loc>https://gamstersparadise.github.io/books/love-worth-making/</loc>
     <lastmod>2025-03-10T10:49:54+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/why-men-love-bitches/</loc>
+    <loc>https://gamstersparadise.github.io/books/why-men-love-bitches/</loc>
     <lastmod>2025-03-04T10:48:08+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/trackers/leetcode-100/</loc>
+    <loc>https://gamstersparadise.github.io/trackers/leetcode-100/</loc>
     <lastmod>2025-03-01T15:22:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/trackers/</loc>
+    <loc>https://gamstersparadise.github.io/trackers/</loc>
     <lastmod>2025-03-01T15:22:17+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/good-startegy-bad-strategy/</loc>
+    <loc>https://gamstersparadise.github.io/books/good-startegy-bad-strategy/</loc>
     <lastmod>2025-03-01T10:47:00+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/acotar/</loc>
+    <loc>https://gamstersparadise.github.io/books/acotar/</loc>
     <lastmod>2025-02-28T10:45:45+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/thinking-in-systems/</loc>
+    <loc>https://gamstersparadise.github.io/books/thinking-in-systems/</loc>
     <lastmod>2025-02-18T10:44:13+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/mindset/</loc>
+    <loc>https://gamstersparadise.github.io/books/mindset/</loc>
     <lastmod>2025-02-15T10:41:16+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/integrity/</loc>
+    <loc>https://gamstersparadise.github.io/books/integrity/</loc>
     <lastmod>2025-02-07T10:37:47+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/creative-act/</loc>
+    <loc>https://gamstersparadise.github.io/books/creative-act/</loc>
     <lastmod>2024-12-30T10:35:05+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://gamstersparadise.github.io/posts/</loc>
     <lastmod>2024-08-18T13:34:54+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://gamstersparadise.github.io/</loc>
     <lastmod>2022-08-25T21:30:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://gamstersparadise.github.io/tags/</loc>
   </url>
 </urlset>
