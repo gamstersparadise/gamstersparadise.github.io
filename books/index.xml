@@ -2,199 +2,206 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on gamstersparadise</title>
-    <link>https://gamstersparadise.github.io/books/</link>
+    <link>http://localhost:1313/books/</link>
     <description>Recent content in Books on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Jul 2025 21:53:53 +0600</lastBuildDate>
-    <atom:link href="https://gamstersparadise.github.io/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jul 2025 22:54:24 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meditations</title>
+      <link>http://localhost:1313/books/meditations/</link>
+      <pubDate>Tue, 29 Jul 2025 22:54:24 +0600</pubDate>
+      <guid>http://localhost:1313/books/meditations/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ir-5.ozone.ru/s3/multimedia-1-q/wc1000/7220351186.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Marcus Aurelius&lt;/p&gt;&#xA;&lt;p&gt;Year: 161–180 AD&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
+    </item>
     <item>
       <title>101 Essays That Will Change The Way You Think</title>
-      <link>https://gamstersparadise.github.io/books/101-essays/</link>
+      <link>http://localhost:1313/books/101-essays/</link>
       <pubDate>Tue, 22 Jul 2025 21:53:53 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/101-essays/</guid>
+      <guid>http://localhost:1313/books/101-essays/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/71iZi2LqK8L._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Brianna Wiest&lt;/p&gt;&#xA;&lt;p&gt;Year: 2018&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The First 90 Days</title>
-      <link>https://gamstersparadise.github.io/books/90-days/</link>
+      <link>http://localhost:1313/books/90-days/</link>
       <pubDate>Thu, 19 Jun 2025 13:13:48 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/90-days/</guid>
+      <guid>http://localhost:1313/books/90-days/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://cdn.litres.ru/pub/c/cover_415/23515945.webp#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Michael D. Watkins&lt;/p&gt;&#xA;&lt;p&gt;Year: 2013&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Code: The Hidden Language of Computer Hardware and Software</title>
-      <link>https://gamstersparadise.github.io/books/code/</link>
+      <link>http://localhost:1313/books/code/</link>
       <pubDate>Fri, 13 Jun 2025 18:31:17 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/code/</guid>
+      <guid>http://localhost:1313/books/code/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/61Hc-9h+-XL._SL1500_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Charles Petzold&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 4-Hour Workweek</title>
-      <link>https://gamstersparadise.github.io/books/four-hour-work-week/</link>
+      <link>http://localhost:1313/books/four-hour-work-week/</link>
       <pubDate>Tue, 03 Jun 2025 17:47:45 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/four-hour-work-week/</guid>
+      <guid>http://localhost:1313/books/four-hour-work-week/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41c1XtU2zKL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Timothy Ferriss&lt;/p&gt;&#xA;&lt;p&gt;Year: 2007&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Confidence Code</title>
-      <link>https://gamstersparadise.github.io/books/confidence-code/</link>
+      <link>http://localhost:1313/books/confidence-code/</link>
       <pubDate>Thu, 22 May 2025 07:42:06 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/confidence-code/</guid>
+      <guid>http://localhost:1313/books/confidence-code/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/71DMnBgMoXL._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Claire Shipman, Katty Kay&lt;/p&gt;&#xA;&lt;p&gt;Year: 2014&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Искусство Войны</title>
-      <link>https://gamstersparadise.github.io/books/art-of-war/</link>
+      <link>http://localhost:1313/books/art-of-war/</link>
       <pubDate>Mon, 19 May 2025 15:30:43 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/art-of-war/</guid>
+      <guid>http://localhost:1313/books/art-of-war/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://ndc.book24.ru/resize/820x1180/pim/products/images/3f/d0/01919722-ea06-78ee-9ec2-52682a033fd0.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Сунь Цзы&lt;/p&gt;&#xA;&lt;p&gt;Year: ?&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grokking Algorithms</title>
-      <link>https://gamstersparadise.github.io/books/grokking-algorithms/</link>
+      <link>http://localhost:1313/books/grokking-algorithms/</link>
       <pubDate>Mon, 12 May 2025 11:01:43 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/grokking-algorithms/</guid>
+      <guid>http://localhost:1313/books/grokking-algorithms/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://static.insales-cdn.com/images/products/1/3564/162876908/44610923.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Aditya Bhargava&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;&#xA;&lt;p&gt;-&amp;gt; &lt;a href=&#34;../../algorithms/binary-search&#34;&gt;Binary search&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Broken Rung</title>
-      <link>https://gamstersparadise.github.io/books/the-broken-rung/</link>
+      <link>http://localhost:1313/books/the-broken-rung/</link>
       <pubDate>Sun, 04 May 2025 19:32:54 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/the-broken-rung/</guid>
+      <guid>http://localhost:1313/books/the-broken-rung/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/81NScMODAaL._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Authors: Kweilin Ellingrud, Lareina Yee, María del Mar Martínez&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stillness Speaks</title>
-      <link>https://gamstersparadise.github.io/books/stillness-speaks/</link>
+      <link>http://localhost:1313/books/stillness-speaks/</link>
       <pubDate>Sat, 03 May 2025 09:50:25 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/stillness-speaks/</guid>
+      <guid>http://localhost:1313/books/stillness-speaks/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://ir-5.ozone.ru/s3/multimedia-j/wc1000/6251573815.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Eckhart Tolle&lt;/p&gt;&#xA;&lt;p&gt;Year: 1997&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Один в Океане: История Побега</title>
-      <link>https://gamstersparadise.github.io/books/odin-v-okeane/</link>
+      <link>http://localhost:1313/books/odin-v-okeane/</link>
       <pubDate>Tue, 29 Apr 2025 12:44:43 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/odin-v-okeane/</guid>
+      <guid>http://localhost:1313/books/odin-v-okeane/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://imo10.labirint.ru/books/686082/cover.jpg/2000-0#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Слава Курилов&lt;/p&gt;&#xA;&lt;p&gt;Year: 2004&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Art Of Community: 7 principles of belonging</title>
-      <link>https://gamstersparadise.github.io/books/art-of-community/</link>
+      <link>http://localhost:1313/books/art-of-community/</link>
       <pubDate>Sat, 26 Apr 2025 14:38:05 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/art-of-community/</guid>
+      <guid>http://localhost:1313/books/art-of-community/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/71g3CVJa9EL._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Charles H. Vogl&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025 (2nd edition)&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Почему я это читаю?&lt;/p&gt;&#xA;&lt;p&gt;Если меня на собеседовании спроcят, кем я хочу видеть себя через 5-10 лет, я отвечу что коммьюнити лидером.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Сообщество&lt;/strong&gt; - группа людей, заботящихся о благополучии друг друга.&lt;/p&gt;&#xA;&lt;h2 id=&#34;принципы-придерживаясь-которых-получится-построить-сообщество-с-максимальным-плюс-вайбом&#34;&gt;Принципы, придерживаясь которых, получится построить сообщество с максимальным плюс-вайбом:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Принцип границ&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Участники сообщества должны точно знать, что отделяет коммьюнити от внешнего мира. Что их объединяет и отличает от аутсайдеров? В чем заключается общая цель? Это понимание должно быть у всех участников. Донесите этот смысл.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The First Rule of Mastery</title>
-      <link>https://gamstersparadise.github.io/books/first-rule-of-mastery/</link>
+      <link>http://localhost:1313/books/first-rule-of-mastery/</link>
       <pubDate>Mon, 21 Apr 2025 22:24:53 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/first-rule-of-mastery/</guid>
+      <guid>http://localhost:1313/books/first-rule-of-mastery/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41xhA+8mEbL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Michael Gervais&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mind Power Into 21st Century</title>
-      <link>https://gamstersparadise.github.io/books/mindpower/</link>
+      <link>http://localhost:1313/books/mindpower/</link>
       <pubDate>Fri, 18 Apr 2025 11:24:37 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/mindpower/</guid>
+      <guid>http://localhost:1313/books/mindpower/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://golosknig.com/uploads/topics/preview/00/00/07/74/6f3e80ff5a.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: John Kehoe&lt;/p&gt;&#xA;&lt;p&gt;Year: 1997&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Influence: The Psychology of Persuasion</title>
-      <link>https://gamstersparadise.github.io/books/influence/</link>
+      <link>http://localhost:1313/books/influence/</link>
       <pubDate>Fri, 18 Apr 2025 11:03:25 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/influence/</guid>
+      <guid>http://localhost:1313/books/influence/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://avatars.mds.yandex.net/get-mpic/12305976/2a0000018d4f2546a9d371b658944b5269d7/optimize#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Robert Cialdini&lt;/p&gt;&#xA;&lt;p&gt;Year: 1984&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Miracle Of Mind Dynamics</title>
-      <link>https://gamstersparadise.github.io/books/miracle-mind-dynamics/</link>
+      <link>http://localhost:1313/books/miracle-mind-dynamics/</link>
       <pubDate>Sun, 13 Apr 2025 11:26:17 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/miracle-mind-dynamics/</guid>
+      <guid>http://localhost:1313/books/miracle-mind-dynamics/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://avatars.mds.yandex.net/get-mpic/3584542/img_id5233093471472339285.jpeg/optimize#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Joseph Murphy&lt;/p&gt;&#xA;&lt;p&gt;Year: 1964&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>True and False Magic</title>
-      <link>https://gamstersparadise.github.io/books/true-and-false-magic/</link>
+      <link>http://localhost:1313/books/true-and-false-magic/</link>
       <pubDate>Thu, 03 Apr 2025 11:02:17 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/true-and-false-magic/</guid>
+      <guid>http://localhost:1313/books/true-and-false-magic/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41QwZlLGBuL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Phil Stutz&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Captivate: The Science of Succeeding with People</title>
-      <link>https://gamstersparadise.github.io/books/captivate/</link>
+      <link>http://localhost:1313/books/captivate/</link>
       <pubDate>Mon, 31 Mar 2025 11:01:03 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/captivate/</guid>
+      <guid>http://localhost:1313/books/captivate/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/810BdFhMmPL._SY522_.jpg#bookcover&#34; alt=&#34;captivate cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Vanessa van Edwards&lt;/p&gt;&#xA;&lt;p&gt;Year: 2017&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hoodwinked</title>
-      <link>https://gamstersparadise.github.io/books/hoodwinked/</link>
+      <link>http://localhost:1313/books/hoodwinked/</link>
       <pubDate>Sat, 22 Mar 2025 10:54:25 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/hoodwinked/</guid>
+      <guid>http://localhost:1313/books/hoodwinked/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/51BqZlbLoGL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Mara Einstein&lt;/p&gt;&#xA;&lt;p&gt;Year: 2025&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Presence</title>
-      <link>https://gamstersparadise.github.io/books/presence/</link>
+      <link>http://localhost:1313/books/presence/</link>
       <pubDate>Wed, 12 Mar 2025 10:52:07 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/presence/</guid>
+      <guid>http://localhost:1313/books/presence/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://cdn.litres.ru/pub/c/cover_415/19196112.webp#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Amy Cuddy&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Love Worth Making</title>
-      <link>https://gamstersparadise.github.io/books/love-worth-making/</link>
+      <link>http://localhost:1313/books/love-worth-making/</link>
       <pubDate>Mon, 10 Mar 2025 10:49:54 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/love-worth-making/</guid>
+      <guid>http://localhost:1313/books/love-worth-making/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://imo10.labirint.ru/books/790586/cover.jpg/2000-0#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Stephen Snyder&lt;/p&gt;&#xA;&lt;p&gt;Year: 2018&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Men Love Bitches</title>
-      <link>https://gamstersparadise.github.io/books/why-men-love-bitches/</link>
+      <link>http://localhost:1313/books/why-men-love-bitches/</link>
       <pubDate>Tue, 04 Mar 2025 10:48:08 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/why-men-love-bitches/</guid>
+      <guid>http://localhost:1313/books/why-men-love-bitches/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/71HncM+zhxL._SY522_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Sherry Argov&lt;/p&gt;&#xA;&lt;p&gt;Year: 2002&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Good Startegy / Bad Strategy</title>
-      <link>https://gamstersparadise.github.io/books/good-startegy-bad-strategy/</link>
+      <link>http://localhost:1313/books/good-startegy-bad-strategy/</link>
       <pubDate>Sat, 01 Mar 2025 10:47:00 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/good-startegy-bad-strategy/</guid>
+      <guid>http://localhost:1313/books/good-startegy-bad-strategy/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/411KxIgNzIL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Richard Rumelt&lt;/p&gt;&#xA;&lt;p&gt;Year: 2011&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Court Of Thorns And Roses</title>
-      <link>https://gamstersparadise.github.io/books/acotar/</link>
+      <link>http://localhost:1313/books/acotar/</link>
       <pubDate>Fri, 28 Feb 2025 10:45:45 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/acotar/</guid>
+      <guid>http://localhost:1313/books/acotar/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://sarahjmaas.com/wp-content/uploads/2023/11/ACOTAR_1-min.jpg#bookcover&#34; alt=&#34;ACOTAR cover&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Sarah J. Maas&lt;/p&gt;&#xA;&lt;p&gt;Year: 2015&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thinking in Systems</title>
-      <link>https://gamstersparadise.github.io/books/thinking-in-systems/</link>
+      <link>http://localhost:1313/books/thinking-in-systems/</link>
       <pubDate>Tue, 18 Feb 2025 10:44:13 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/thinking-in-systems/</guid>
+      <guid>http://localhost:1313/books/thinking-in-systems/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://moreknig.org/uploads/posts/covers/63/85/medium/azbuka-sistemnogo-myshleniya-medouz-donella-99757.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Donella Meadows&lt;/p&gt;&#xA;&lt;p&gt;Year: 2008&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mindset</title>
-      <link>https://gamstersparadise.github.io/books/mindset/</link>
+      <link>http://localhost:1313/books/mindset/</link>
       <pubDate>Sat, 15 Feb 2025 10:41:16 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/mindset/</guid>
+      <guid>http://localhost:1313/books/mindset/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://ir-3.ozone.ru/s3/multimedia-a/wc1000/6759420022.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Carol Dweck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2006&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇷🇺&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Way of Integrity</title>
-      <link>https://gamstersparadise.github.io/books/integrity/</link>
+      <link>http://localhost:1313/books/integrity/</link>
       <pubDate>Fri, 07 Feb 2025 10:37:47 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/integrity/</guid>
+      <guid>http://localhost:1313/books/integrity/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41ipeIFNOpL._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&#xA;Author: Martha Beck&lt;/p&gt;&#xA;&lt;p&gt;Year: 2021&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Creative Act: A Way Of Being</title>
-      <link>https://gamstersparadise.github.io/books/creative-act/</link>
+      <link>http://localhost:1313/books/creative-act/</link>
       <pubDate>Mon, 30 Dec 2024 10:35:05 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/books/creative-act/</guid>
+      <guid>http://localhost:1313/books/creative-act/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://m.media-amazon.com/images/I/41GCniMAw0L._SY445_SX342_.jpg#bookcover&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Author: Rick Rubin&lt;/p&gt;&#xA;&lt;p&gt;Year: 2023&lt;/p&gt;&#xA;&lt;p&gt;Language: 🇬🇧&lt;/p&gt;</description>
     </item>
   </channel>

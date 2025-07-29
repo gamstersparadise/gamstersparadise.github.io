@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>System design on gamstersparadise</title>
-    <link>https://gamstersparadise.github.io/system-design/</link>
+    <link>http://localhost:1313/system-design/</link>
     <description>Recent content in System design on gamstersparadise</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jun 2025 19:11:05 +0600</lastBuildDate>
-    <atom:link href="https://gamstersparadise.github.io/system-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/system-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🌳 Merkle (Hash) Tree</title>
-      <link>https://gamstersparadise.github.io/system-design/hash-tree/</link>
+      <link>http://localhost:1313/system-design/hash-tree/</link>
       <pubDate>Fri, 20 Jun 2025 19:11:05 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/system-design/hash-tree/</guid>
+      <guid>http://localhost:1313/system-design/hash-tree/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Дерево хешей (дерево Меркла)&lt;/strong&gt; - древоподобная структура данных, в которой листья содержат захешированные данные, а нелистовые узлы содержат хеши своих потомков.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hash_Tree.svg/1200px-Hash_Tree.svg.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;-&amp;gt; Сложность всех операций (кроме обхода) - О(logN), обход - О(N)&lt;/p&gt;&#xA;&lt;p&gt;Применяется:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;блокчейн&lt;/li&gt;&#xA;&lt;li&gt;детекция несоответствий данных разного масштаба (даже целых реплик)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Сравнив хеши корней двух деревьев, можно узнать совпадают ли все данные в структуре целиком. Если они различны, можно найти точное место несоответствия и синхронизировать данные точечно, сэкономив.&lt;/p&gt;</description>
     </item>
     <item>
       <title>📗 Gossip Protocol</title>
-      <link>https://gamstersparadise.github.io/system-design/gossip-protocol/</link>
+      <link>http://localhost:1313/system-design/gossip-protocol/</link>
       <pubDate>Fri, 20 Jun 2025 15:43:58 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/system-design/gossip-protocol/</guid>
+      <guid>http://localhost:1313/system-design/gossip-protocol/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://cdn.lifehacker.ru/wp-content/uploads/2025/04/teri_hatcher_kathryn_joosten_mar_1745995250_lh_big_x2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Основная идея: в системе есть набор узлов. Для каждого из них определен список &amp;lsquo;соседей&amp;rsquo;, с которыми они деляется информацией. Тем самым, данные распространяются по системе и в итоге обеспечивается eventual consistency.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;децентрализованный подход&lt;/li&gt;&#xA;&lt;li&gt;асинхронный госсип&lt;/li&gt;&#xA;&lt;li&gt;выбор соседей - рандомный&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Плюсы:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;нет мастер ноды -&amp;gt; все классно скейлится&lt;/li&gt;&#xA;&lt;li&gt;норм отказоустойчивость&lt;/li&gt;&#xA;&lt;li&gt;обеспечивает eventual consistency&lt;/li&gt;&#xA;&lt;li&gt;низкий оверхед&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;gossip-протокол-для-failure-detection&#34;&gt;Gossip-протокол для failure detection&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/gosspip-for-failure-detection.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Каждый узел следит за здоровьем своих соседей через табличку. Данные в таких табличках обновляются посредством госсип-протокола: периодически каждый узел рассылает уведомления соседям, что он жив (heartbeat), и данные в их табличках обновляются. Если же обновления перестают приходить, узел считается подозрительным. Если его подозрительность подтвердится и другими узлами, то он &amp;ldquo;выключается&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>🔮 Vector Clock</title>
-      <link>https://gamstersparadise.github.io/system-design/vector-clock/</link>
+      <link>http://localhost:1313/system-design/vector-clock/</link>
       <pubDate>Fri, 20 Jun 2025 14:39:39 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/system-design/vector-clock/</guid>
+      <guid>http://localhost:1313/system-design/vector-clock/</guid>
       <description>&lt;p&gt;Допустим, случился конфликт: одновременно два пользователя считали данные и решили их изменить. Как понять, какие данные в итоге должны считаться актуальными?&lt;/p&gt;&#xA;&lt;p&gt;Можно воспользоваться timestamp-ами? Можно, это просто, но достаточно проблематично. Например, таймстемпы могут совпасть, могут быть разные локальные часы на машинах&amp;hellip; да еще и не отражаются причинно-следственные связи. Всех этих недостатков лишены &lt;strong&gt;векторные часы&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Векторные часы&lt;/strong&gt; - это механизм в распределенных системах, используемый для определения порядка событий и выявления причинно-следственных связей между ними. Каждый узел имеет свой собственный векторный счетчик, который обновляется при каждом событии:&lt;/p&gt;</description>
     </item>
     <item>
       <title>🐾 Consistency Models</title>
-      <link>https://gamstersparadise.github.io/system-design/consistency-models/</link>
+      <link>http://localhost:1313/system-design/consistency-models/</link>
       <pubDate>Fri, 20 Jun 2025 14:28:09 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/system-design/consistency-models/</guid>
+      <guid>http://localhost:1313/system-design/consistency-models/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Модель согласованности (консистентности)&lt;/strong&gt; - подход, используемый в распределенной системе для обеспечения гарантий согласованности данных.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cогласованность&lt;/strong&gt; данных требует, чтобы во всех вычислительных узлах в один момент времени данные не противоречали друг другу.&lt;/p&gt;&#xA;&lt;p&gt;Три базовые модели согласованности:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Strict consistency (cтрогая/сильная консистентность)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Любая операция чтения возвращает актуальные данные.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Долго и нудно. Зато надежно.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Weak consistency (cлабая консистентность)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Актуальность читаемых данных не гарантируется.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Eventual consustency (консистентность в конечном итоге)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Некоторая форма слабой консистентности. Система гарантированно придет в согласованное состояние - но со временем. В моменте данные могут быть outdated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🌼 Quorum Consensus</title>
-      <link>https://gamstersparadise.github.io/system-design/quorum-consensus/</link>
+      <link>http://localhost:1313/system-design/quorum-consensus/</link>
       <pubDate>Fri, 20 Jun 2025 13:39:23 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/system-design/quorum-consensus/</guid>
+      <guid>http://localhost:1313/system-design/quorum-consensus/</guid>
       <description>&lt;p&gt;Когда данные распределенные, они должны оставаться синхронизированными. Получается, узлы системы должны иметь механизм, который согласует их состояние - определяет, какие значения являются актульными и валидными при &lt;em&gt;расхождении показаний&lt;/em&gt; разных узлов.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quorum Consensus&lt;/strong&gt; - и есть тот механизм. Он гарантирует консистентность операций чтения и записи. В чем он заключается?&lt;/p&gt;&#xA;&lt;p&gt;Пусть&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;N - количество узлов (реплик и т.д.)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;R - количество узлов, которые должны подтвердить корректность данных, чтобы операция чтения считалась успешной; &lt;em&gt;R &amp;lt;= N&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>🖇 Rate Limiting Strategies</title>
-      <link>https://gamstersparadise.github.io/system-design/rate-limiting-strategies/</link>
+      <link>http://localhost:1313/system-design/rate-limiting-strategies/</link>
       <pubDate>Wed, 18 Jun 2025 11:08:51 +0600</pubDate>
-      <guid>https://gamstersparadise.github.io/system-design/rate-limiting-strategies/</guid>
+      <guid>http://localhost:1313/system-design/rate-limiting-strategies/</guid>
       <description>&lt;p&gt;Суть rate limiter-a в том, чтобы не допускать перегрузки системы. Это та штука, которая следит за тем, чтобы объемы трафика не превышали установленных значений.&lt;/p&gt;&#xA;&lt;p&gt;Нужно обрабатывать запросы, когда их объем не превышает лимитов. В противном случае &amp;ldquo;лишние&amp;rdquo; запросы надо игнорировать/отклонять. Как именно это сделать? Какой логикой руководствоваться?&lt;/p&gt;&#xA;&lt;p&gt;Рассмотрим 5 популярных алгоритмов:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-token-bucket&#34;&gt;1. Token bucket&lt;/h3&gt;&#xA;&lt;p&gt;В &amp;ldquo;ведро&amp;rdquo; с некоторой перидоичностью насыпают токены. Каждый входящий запрос = 1 токен. Если во время получения нового запроса в &amp;ldquo;ведре&amp;rdquo; есть токены, запрос обрабатывается, иначе - отклоняется.&lt;/p&gt;</description>
     </item>
   </channel>
