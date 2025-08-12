@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/books/</loc>
-    <lastmod>2025-07-29T22:54:24+06:00</lastmod>
+    <lastmod>2025-08-10T07:06:23+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-name-of-the-rose/</loc>
+    <lastmod>2025-08-10T07:06:23+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/meditations/</loc>
     <lastmod>2025-07-29T22:54:24+06:00</lastmod>
