@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/books/</loc>
+    <lastmod>2025-09-30T09:47:39+06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/books/</loc>
-    <lastmod>2025-08-10T07:06:23+06:00</lastmod>
+    <lastmod>2025-09-30T09:47:39+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-09-30T09:47:39+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/microservices-patterns/</loc>
+    <lastmod>2025-09-30T09:47:39+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/slouching-towards-bethlehem/</loc>
+    <lastmod>2025-09-24T09:45:38+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/the-house-of-the-dead/</loc>
+    <lastmod>2025-08-31T09:42:58+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/the-name-of-the-rose/</loc>
     <lastmod>2025-08-10T07:06:23+06:00</lastmod>
@@ -12,12 +27,6 @@
     <lastmod>2025-07-29T22:54:24+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/101-essays/</loc>
-    <lastmod>2025-07-22T21:53:53+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/books/</loc>
-    <lastmod>2025-07-22T21:53:53+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-07-22T21:53:53+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/microservice-patterns/unit-testing/</loc>
